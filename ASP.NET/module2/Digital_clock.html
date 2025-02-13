@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" 
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+            crossorigin="anonymous">
+    </script>
+	<script>
+	    var s=0,h=1,m=0;
+		var call="AM";
+		
+	    $(document).ready(function(){
+		   setInterval(function(){
+		   s=s+1;
+		   if(s==60)
+	       {
+	          m=m+1;
+		      s=0;
+	       }
+	       else if(m==60)
+	       {
+	          h=h+1;
+		      m=0;
+	       }
+	       else if(h==13)
+	       {
+		      if(call=="AM")
+		      {
+		         call="PM";
+		      }
+		      else if(call=="PM")
+		      {
+		         call="AM";
+		      }
+	          h=1;
+	       }
+		   var h1 = h < 10 ? "0" + h : h;
+           var m1 = m < 10 ? "0" + m : m;
+           var s1 = s < 10 ? "0" + s : s;
+	  
+	       $('#divID').html(h1+':'+m1+':'+s1+" "+call)
+		   },1000)
+		})
+	</script>
+	<style>
+	    .cls{
+		   font-size: 30px;
+           width: 300px;
+           height: 40px;
+           text-align: center;
+		   background:black;
+		   color:red;
+           border: 2px solid black;
+           border-radius: 20px;
+	       position: relative;
+           left: 30px;
+	       right: 0px;
+           top: 0px;  
+           bottom:0px;
+		}
+		.cls1{
+		   font-size: 30px;
+           width: 360px;
+           height: 200px;
+           text-align: center;
+		   background:white;
+		   color:red;
+           border: 2px solid black;
+           border-radius: 20px;
+	       position: relative;
+           left: 420px;
+	       right: 0px;
+           top: 170px;  
+           bottom:0px;
+		}
+	</style>
+</head>
+<body> 
+    <div class='cls1'>
+	    Clock
+        <div id='divID' class='cls'></div>
+	</div>
+</body>
+</html>

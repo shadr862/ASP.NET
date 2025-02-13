@@ -1,0 +1,103 @@
+<!DOCTYPE>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.7.1.js" 
+integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+crossorigin="anonymous">
+</script>
+<script>
+    /*
+    function UpdateHtml()
+	{
+	  alert('check')
+	  var inputVal=document.getElementById('divId');
+	  inputVal.innerHTML='';
+	}
+	*/
+    
+	/*
+	function UpdateHtml()
+	{
+	  alert('check')
+	  var inputVal=document.getElementById('divId');
+	  inputVal.innerHTML='<a href="https://www.google.com" target="_blank">google</a>';
+	}
+	window.onload=UpdateHtml;
+	*/
+	function UpdateHtml()
+	{
+	  alert('check')
+	  //var inputVal=document.getElementById('divId');
+	  //inputVal.innerHTML='<a href="https://www.google.com" target="_blank">google</a>';
+	  //make it simpler by using jquery
+	  $('#divId').html('<a href="https://www.google.com" target="_blank">google</a>')
+	}
+	/*window.addEventListener("DOMContentLoaded",function(){
+	     console.log("DOMContentLoaded is completed")
+		 UpdateHtml();
+	})
+	*/
+	/*
+	only idS
+	$(document).ready(function(){
+	    console.log("from jquery")
+		$('#divId').css("background","black")
+		UpdateHtml();
+	})
+	*/
+	/*
+	$(document).ready(function(){
+	    console.log("from jquery")
+		$('.cls1').css("background","black")
+		UpdateHtml();
+	})
+	*/
+	var i=0,h=1,m=0;
+	var call="AM";
+	/*$(document).ready(function(){
+	   setTimeout(function(){
+	    console.log(i+1)
+	   },6000)
+	   $('#divId').html(i+1)
+	})
+	*/
+	$(document).ready(function(){
+	   setInterval(function(){
+	    i=i+1
+	    console.log(i)
+	    $('#divId').html(i)
+	    },1000)
+	})
+    
+</script>
+</head>
+<body>
+    <!--
+	<div onload='UpdateHtml()' id='divId' style='height:200px; width:200px; background:red'>
+	    div body
+	</div>
+	
+	<div  id='divId' class='cls1' style='height:200px; width:200px; background:red'>
+	    div body
+	</div>
+	<div  id='divId1' class='cls1'style='height:200px; width:200px; background:red'>
+	    div body
+	</div>
+	<div  id='divId2' class='cls2'style='height:200px; width:200px; background:red'>
+	    div body
+	</div>
+	-->
+	<div  id='divId'>
+
+	    
+	</div>
+	
+</body>
+<!-- 
+if we want to execute instead of onload in the div section.we have to put it in lower section.
+<script>
+    var inputVal=document.getElementById('divId');
+	inputVal.innerHTML='';
+</script>
+-->
+</html>
