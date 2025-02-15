@@ -47,6 +47,10 @@ namespace WFA_calculator
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -64,7 +68,7 @@ namespace WFA_calculator
             this.textName.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.textName.Location = new System.Drawing.Point(136, 74);
             this.textName.Name = "textName";
-            this.textName.Size = new System.Drawing.Size(358, 48);
+            this.textName.Size = new System.Drawing.Size(451, 48);
             this.textName.TabIndex = 1;
             this.textName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -218,11 +222,55 @@ namespace WFA_calculator
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(512, 128);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(75, 35);
+            this.button17.TabIndex = 20;
+            this.button17.Text = "root";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(512, 181);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(75, 35);
+            this.button18.TabIndex = 21;
+            this.button18.Text = "x^2";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(512, 231);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(75, 35);
+            this.button19.TabIndex = 22;
+            this.button19.Text = "logn";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click_1);
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(512, 284);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(75, 35);
+            this.button20.TabIndex = 23;
+            this.button20.Text = "1/x";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(660, 388);
+            this.Controls.Add(this.button20);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.button18);
+            this.Controls.Add(this.button17);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
@@ -268,6 +316,10 @@ namespace WFA_calculator
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
     }
 }
 

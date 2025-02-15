@@ -20,18 +20,18 @@ namespace WFA_calculator
             InitializeComponent();
         }
 
-
-        private void button1_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            // MessageBox.Show("riaz", "Alert", MessageBoxButtons.YesNo);
-            //textName.Text = "1";
-             input = input * 10 + 1;
-             textName.Text = input.ToString();
+            value =value + input;
+            input = 0;
+            last_operation = '+';
+            textName.Text = value.ToString();
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
-            value -= input;
+            value =value - input;
             input = 0;
             last_operation = '-';
             textName.Text = value.ToString();
@@ -103,7 +103,13 @@ namespace WFA_calculator
             last_operation = ' ';
             textName.Text = " ";
         }
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // MessageBox.Show("riaz", "Alert", MessageBoxButtons.YesNo);
+            //textName.Text = "1";
+            input = input * 10 + 1;
+            textName.Text = input.ToString();
+        }
         private void button8_Click(object sender, EventArgs e)
         {
             input = input * 10 + 2;
@@ -158,12 +164,46 @@ namespace WFA_calculator
             textName.Text = input.ToString();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button17_Click(object sender, EventArgs e)
         {
-            value += input;
-            input = 0;
-            last_operation = '+';
+            if(value==0)
+            {
+                value = input;
+            }
+            value = Math.Sqrt(value);
             textName.Text = value.ToString();
         }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            if (value == 0)
+            {
+                value = input;
+            }
+            value = value*value;
+            textName.Text = value.ToString();
+        }
+
+        private void button19_Click_1(object sender, EventArgs e)
+        {
+            if (value == 0)
+            {
+                value = input;
+            }
+            value = Math.Log10(value);
+            textName.Text = value.ToString();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            if (value == 0)
+            {
+                value = input;
+            }
+            value = 1/value;
+            textName.Text = value.ToString();
+        }
+
+     
     }
 }
