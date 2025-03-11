@@ -1,0 +1,14 @@
+C:\Users\Lenovo\OneDrive\Desktop\livetest\obj\Debug\net8.0\livetest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Desktop\livetest\obj\Debug\net8.0\livetest.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\livetest\obj\Debug\net8.0\livetest.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Desktop\livetest\obj\Debug\net8.0\livetest.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\livetest\bin\Debug\net8.0\livetest.exe
+C:\Users\Lenovo\OneDrive\Desktop\livetest\bin\Debug\net8.0\livetest.deps.json
+C:\Users\Lenovo\OneDrive\Desktop\livetest\bin\Debug\net8.0\livetest.runtimeconfig.json
+C:\Users\Lenovo\OneDrive\Desktop\livetest\bin\Debug\net8.0\livetest.dll
+C:\Users\Lenovo\OneDrive\Desktop\livetest\bin\Debug\net8.0\livetest.pdb
+C:\Users\Lenovo\OneDrive\Desktop\livetest\obj\Debug\net8.0\livetest.dll
+C:\Users\Lenovo\OneDrive\Desktop\livetest\obj\Debug\net8.0\refint\livetest.dll
+C:\Users\Lenovo\OneDrive\Desktop\livetest\obj\Debug\net8.0\livetest.pdb
+C:\Users\Lenovo\OneDrive\Desktop\livetest\obj\Debug\net8.0\livetest.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive\Desktop\livetest\obj\Debug\net8.0\ref\livetest.dll
