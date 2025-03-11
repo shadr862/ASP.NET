@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Data.SqlClient;
 using System.Data;
+using System.Web.Optimization;
 
 namespace Inventory.Models
 {
@@ -40,6 +41,35 @@ namespace Inventory.Models
             sqlConnection.Close();
             return dataTable;
           
+        }
+        public DataTable ValidateMemberAsDataTableBySp(string UserName, string Password)
+        {
+            string Constring = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
+
+            SqlConnection sqlConnection = new SqlConnection(Constring);
+            sqlConnection.Open();
+
+            
+            SqlCommand cmd = new SqlCommand("MyProcedure", sqlConnection);
+            cmd.CommandText = "MyProcedure";
+            cmd.Connection = sqlConnection;
+            cmd.CommandTimeout = 0;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Clear();
+            cmd.Parameters.Add(new SqlParameter("@userName", UserName));
+            cmd.Parameters.Add(new SqlParameter("@Password", Password));
+            
+
+            //Table Data
+            DataTable dataTable = new DataTable();
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dataTable);
+
+
+            cmd.Dispose();
+            sqlConnection.Close();
+            return dataTable;
+
         }
 
         public List<User> ValidateMemberAsList()

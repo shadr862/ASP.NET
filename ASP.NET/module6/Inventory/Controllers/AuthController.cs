@@ -43,22 +43,43 @@ namespace Inventory.Controllers
             */
 
             User obj = new User();
+            DataTable dt = obj.ValidateMemberAsDataTableBySp(txtUsername, txtPassword);
+            if (dt.Rows.Count > 0)
+            {
+                //foreach (DataRow row in dt.Rows)
+                //{
+                //    int id = int.Parse(row["Id"].ToString());
+                //    string name = row["Name"].ToString();
+                //    string Pass = row["Password"].ToString();
+                //    if (name == txtUsername && Pass == txtPassword)
+                //    {
+                //        return Redirect(Url.Action("Index", "Home"));
+                //    }
+
+                //}
+                ViewBag.UserName = txtUsername;
+                Session["UserName"] = txtUsername;
+                return Redirect(Url.Action("About", "Home"));
+            }
+            /*
+            User obj = new User();
             List<User> list = obj.ValidateMemberAsList();
             bool status = false;
-            foreach(User member in list)
+            foreach (User member in list)
             {
-                if(member.Name==txtUsername && member.Password==txtPassword)
+                if (member.Name == txtUsername && member.Password == txtPassword)
                 {
                     status = true;
                     break;
                 }
             }
+            ViewBag.UserName = txtUsername;
+            Session["UserName"] = txtUsername;
             if (status)
             {
-                ViewBag.UserName = txtUsername;
-                Session["UserName"] = txtUsername;
                 return Redirect(Url.Action("About", "Home"));
             }
+            */
             return View();
         }
     }

@@ -12,13 +12,25 @@
     <link href="~/Content/Site.css" rel="stylesheet" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <script src="~/Scripts/bootstrap.js"></script>
-    <script>
-        var username = '@ViewBag.UserName'
+    @{ 
+        string sessionuser = "";
+        if(Session["UserName"]!=null)
+        {
+            sessionuser = Session["UserName"].ToString();
+        }
+    }
+<script>
+        var username = '@sessionuser';
+        if (username != '') {
+            alert("Login Failed.User: " + username)
+        }
+
+        @*var username = '@ViewBag.UserName'
         if (username != '') {
             alert("Login successful.user: " + username)
             window.location.href="@Url.Action("About", "Home")";
-        }
-    </script>
+        }*@
+</script>
 </head>
 <body>
     <h2>@ViewBag.Message</h2>
