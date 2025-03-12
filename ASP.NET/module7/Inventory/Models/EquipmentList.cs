@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+using System.Web.WebPages;
+
+namespace Inventory.Models
+{
+    public class EquipmentList
+    {
+       public int Equipmentid { get; set; }
+       public string EquipmentName { get; set; }
+       public int Quantity { get; set; }
+       public DateTime EntryDate { get; set; }
+       public DateTime EndDate { get; set; }
+
+       public List<EquipmentList> equipmentLists ()
+       {
+            string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
+
+            SqlConnection sqlConnection = new SqlConnection(constr);
+            sqlConnection.Open();
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "EquipmentList_procedure";
+            cmd.Connection = sqlConnection;
+            cmd.CommandTimeout = 0;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Clear();
+
+            List<EquipmentList> list = new List<EquipmentList>();
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            if(reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    EquipmentList obj = new EquipmentList();
+                    obj.Equipmentid = int.Parse(reader["Equipmentid"].ToString());
+                    obj.EquipmentName = reader["EquipmentName"].ToString();
+                    obj.Quantity= int.Parse(reader["Quantity"].ToString());
+                    obj.EntryDate = Convert.ToDateTime(reader["EntryDate"].ToString().IsEmpty()?"2023-05-22": reader["EntryDate"].ToString());
+                    obj.EndDate= Convert.ToDateTime(reader["EndDate"].ToString().IsEmpty() ?"2023-05-22" : reader["EndDate"].ToString());
+                    list.Add(obj);
+                }
+            }
+
+            cmd.Dispose();
+            sqlConnection.Close();
+            return list;
+
+       }
+
+    }
+}

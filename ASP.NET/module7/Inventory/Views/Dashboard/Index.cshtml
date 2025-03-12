@@ -1,4 +1,4 @@
-﻿
+﻿@using Inventory.Models;
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,7 +8,32 @@
     <div class="col col-sm-6">
         <div style="background-color: #cccc; width:100%;text-align:center;padding:5px">caption1</div>
         <div style="max-height:400px; width:100%;overflow:auto">
-           
+            <table>
+                <tr>
+                    <th>Equipmentid</th>
+                    <th>EquipmentName</th>
+                    <th>Quantity</th>
+                    <th>EntryDate</th>
+                    <th>EndDate</th>
+                </tr>
+                @{
+                    EquipmentList obj = new EquipmentList();
+                    List<EquipmentList> list = obj.equipmentLists();
+                    foreach (var item in list)
+                    {
+                                <tr>
+                                    <td>@item.Equipmentid</td>
+                                    <td>@item.EquipmentName</td>
+                                    <td>@item.Quantity</td>
+                                    <td>@item.EntryDate</td>
+                                    <td>@item.EndDate</td>
+                                </tr>
+
+                    }
+                }
+
+
+            </table>
         </div>
 
     </div>
@@ -16,7 +41,7 @@
     <div class="col col-sm-6">
         <div style="background-color: #cccc; width: 100%; text-align: center; padding: 5px">caption2</div>
         <div style="max-height:400px; width:100%;overflow:auto">
-            list2
+            
         </div>
 
     </div>
