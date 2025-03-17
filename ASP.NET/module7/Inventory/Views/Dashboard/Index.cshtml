@@ -3,34 +3,115 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+</style>
+<script>
+    //Leagcy part
+    /*
+    function ShowModel() { 
+        document.getElementById('dvOverlay').style.display = '';
+        document.getElementById('dvModal').style.display = '';
+    }
+    function HideModel(){
+        document.getElementById('dvOverlay').style.display = 'none';
+        document.getElementById('dvModal').style.display = 'none';
+    }
+    */
+
+    // Dynamic Part
+    function ShowModel() {
+        $('#dvModal').dialog({
+            title:"Equipment Entry",
+            height: 500,
+            width: 400,
+            modal: true,
+            buttons: {
+                Cancel: function () {
+                    dialog.dialog("close");
+                },
+                Ok: function () {
+                    dialog.dialog("Ok");
+                }
+            }
+
+        });
+    }
+    function HideModel() {
+        
+    }
+
+    function DeleteItem(id) {
+        $.ajax({
+            url: '@Url.Action("Delete","Dashboard")',
+            type: 'POST',
+            data: { ID: id },
+            success: function(response) {
+                /*alert('Data sent successfully!')*/
+            }
+        });
+    }
+</script>
 
 <div class="row">
     <div class="col col-sm-6">
-        <div style="background-color: #cccc; width:100%;text-align:center;padding:5px">caption1</div>
+        <div style="background-color: lightcoral; width:100%;text-align:center;padding:5px">
+            Equipment List
+            <input type="button" value="New" style="float:right" onclick="ShowModel()" />
+        </div>
         <div style="max-height:400px; width:100%;overflow:auto">
-            <table>
+            <table id="customers">
                 <tr>
-                    <th>Equipmentid</th>
+                    <th>Update</th>
+                    <th>Delete</th>
                     <th>EquipmentName</th>
                     <th>Quantity</th>
                     <th>EntryDate</th>
                     <th>EndDate</th>
                 </tr>
                 @{
-                    EquipmentList obj = new EquipmentList();
-                    List<EquipmentList> list = obj.equipmentLists();
+                    //EquipmentList obj = new EquipmentList();
+
+                    List<EquipmentList> list = (List<EquipmentList>)ViewBag.EquipmentList;
+
                     foreach (var item in list)
                     {
-                                <tr>
-                                    <td>@item.Equipmentid</td>
-                                    <td>@item.EquipmentName</td>
-                                    <td>@item.Quantity</td>
-                                    <td>@item.EntryDate</td>
-                                    <td>@item.EndDate</td>
-                                </tr>
+                    <tr>
+                        <td><input type="button" value="Update" onclick="UpdateItem(@item.Equipmentid)" /></td>
+                        <td><input type="button" value="Delete" onclick="DeleteItem(@item.Equipmentid)" /></td>
+                        <td>@item.EquipmentName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.EntryDate</td>
+                        <td>@item.EndDate</td>
+                    </tr>
 
                     }
-                }
+                    }
 
 
             </table>
@@ -39,7 +120,7 @@
     </div>
       
     <div class="col col-sm-6">
-        <div style="background-color: #cccc; width: 100%; text-align: center; padding: 5px">caption2</div>
+        <div style="background-color: lightcoral; width: 100%; text-align: center; padding: 5px">caption2</div>
         <div style="max-height:400px; width:100%;overflow:auto">
             
         </div>
@@ -47,3 +128,4 @@
     </div>
 </div>
 
+@Html.Partial("EquipmentEntry");

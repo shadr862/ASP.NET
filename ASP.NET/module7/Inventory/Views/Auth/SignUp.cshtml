@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SingUp</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <form method="post" action="@Url.Action("SignUp","Auth")">
+                <div class="card">
+                    <div class="card-header" style="text-align:center">
+                        Sign Up
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="text" name="UserName" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                            <input type="password" name="Password" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Age</label>
+                            <input type="text" name="Age" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Role</label>
+                            <input type="text" name="Role" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Service Type</label>
+                            <input type="text" name="ServiceType" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Submit" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

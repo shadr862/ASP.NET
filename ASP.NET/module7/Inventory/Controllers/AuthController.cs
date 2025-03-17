@@ -11,6 +11,7 @@ namespace Inventory.Controllers
     public class AuthController : Controller
     {
         // GET: Auth
+        [HttpGet]
         public ActionResult Login()
         {
             return View();
@@ -20,30 +21,8 @@ namespace Inventory.Controllers
         public ActionResult Login(string txtUsername, string txtPassword)
         {
 
-            /*
             User obj = new User();
-            DataTable dt= obj.ValidateMemberAsDataTable(txtUsername, txtPassword);
-            if(dt.Rows.Count>0)
-            {
-                foreach(DataRow row in dt.Rows)
-                {
-                    int id = int.Parse(row["Id"].ToString());
-                    string name = row["Name"].ToString();
-                    string Pass = row["Password"].ToString();
-                    if(name==txtUsername && Pass==txtPassword)
-                    {
-                        return Redirect(Url.Action("Index", "Home"));
-                    }
-                    
-                }
-                ViewBag.UserName = txtUsername;
-                Session["UserName"] = txtUsername;
-                return Redirect(Url.Action("About", "Home"));
-            }
-            */
-
-            User obj = new User();
-            DataTable dt = obj.ValidateMemberAsDataTableBySp(txtUsername, txtPassword);
+            DataTable dt = obj.LoginSp(txtUsername, txtPassword);
             if (dt.Rows.Count > 0)
             {
                 //foreach (DataRow row in dt.Rows)
@@ -61,25 +40,7 @@ namespace Inventory.Controllers
                 Session["UserName"] = txtUsername;
                 return Redirect(Url.Action("Index", "Dashboard"));
             }
-            /*
-            User obj = new User();
-            List<User> list = obj.ValidateMemberAsList();
-            bool status = false;
-            foreach (User member in list)
-            {
-                if (member.Name == txtUsername && member.Password == txtPassword)
-                {
-                    status = true;
-                    break;
-                }
-            }
-            ViewBag.UserName = txtUsername;
-            Session["UserName"] = txtUsername;
-            if (status)
-            {
-                return Redirect(Url.Action("About", "Home"));
-            }
-            */
+            
             return View();
         }
 
@@ -88,5 +49,19 @@ namespace Inventory.Controllers
             Session.Remove("UserName");
             return Redirect(@Url.Action("Login", "Auth"));
         }
+
+        public ActionResult SignUp()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult SignUp(string UserName,string Password,string Age,string Role,string ServiceType)
+        {
+            User obj = new User();
+            obj.SignUpSp(UserName, Password, int.Parse(Age), Role, ServiceType);
+            return Redirect(@Url.Action("Login","Auth"));
+        }
+
+
     }
 }

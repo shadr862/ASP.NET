@@ -54,5 +54,64 @@ namespace Inventory.Models
 
        }
 
+        public void DeleteRow(int id)
+        {
+            string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
+
+            SqlConnection sqlConnection = new SqlConnection(constr);
+            sqlConnection.Open();
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "EquipmentList_procedure_Delete";
+            cmd.Connection = sqlConnection;
+            cmd.CommandTimeout = 0;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Clear();
+            cmd.Parameters.Add(new SqlParameter("@Equipmentid", id));
+            cmd.ExecuteNonQuery();
+            
+
+
+            cmd.Dispose();
+            sqlConnection.Close();
+    
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

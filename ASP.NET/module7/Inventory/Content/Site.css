@@ -18,26 +18,7 @@ select,
 textarea {
     max-width: 280px;
 }
-.upper {
-    height: 500px;
-    width: 400px;
-    /*border: 1px solid #808080;*/
-    margin: auto;
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-}
 
-.inner {
-    height: 300px;
-    width: 30%;
-    border: 1px solid #808080;
-    margin: auto;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-}
+
+
+

@@ -1,0 +1,25 @@
+﻿@*Legacy part*@
+@*<div id="dvOverlay" style="display:none;position:fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; background-color: #000000; opacity: 0.5; z-index: 5">
+
+</div>
+<div id="dvModal" style="display: none; position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 500px; width: 400px; margin: auto; z-index: 6; background-color: #ffffff ">
+    <input type="button" value="Close" onclick="HideModel()" />
+</div>*@
+
+@*dynamic part*@
+<div id="dvModal" style="display: none">
+    <form>
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"class="text ui-widget-content ui-corner-all"><br />
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"class="text ui-widget-content ui-corner-all"><br />
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="text ui-widget-content ui-corner-all"><br />
+
+            <!-- Allow form submission with keyboard without duplicating the dialog button -->
+            <input type="submit"/>
+        </fieldset>
+    </form>
+</div>
+

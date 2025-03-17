@@ -18,47 +18,23 @@ namespace Inventory.Models
         public string Role { get; set; }
         public string Servicetype { get; set; }
 
-        public DataTable ValidateMemberAsDataTable(string UserName, string Password)
+        public DataTable LoginSp(string UserName, string Password)
         {
             string Constring = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
             SqlConnection sqlConnection = new SqlConnection(Constring);
             sqlConnection.Open();
 
-            string command = "select * from [dbo].[User] where Name='"+ UserName + "' and Password='"+Password+"'";
-            SqlCommand cmd = new SqlCommand(command, sqlConnection);
-            cmd.CommandTimeout = 0;
-            cmd.CommandType = CommandType.Text;
-            cmd.Parameters.Clear();
 
-            //Table Data
-            DataTable dataTable = new DataTable();
-            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-            adapter.Fill(dataTable);
-
-
-            cmd.Dispose();
-            sqlConnection.Close();
-            return dataTable;
-          
-        }
-        public DataTable ValidateMemberAsDataTableBySp(string UserName, string Password)
-        {
-            string Constring = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
-
-            SqlConnection sqlConnection = new SqlConnection(Constring);
-            sqlConnection.Open();
-
-            
-            SqlCommand cmd = new SqlCommand("MyProcedure", sqlConnection);
-            cmd.CommandText = "MyProcedure";
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "LoginProcedure";
             cmd.Connection = sqlConnection;
             cmd.CommandTimeout = 0;
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.Clear();
             cmd.Parameters.Add(new SqlParameter("@userName", UserName));
             cmd.Parameters.Add(new SqlParameter("@Password", Password));
-            
+
 
             //Table Data
             DataTable dataTable = new DataTable();
@@ -72,46 +48,36 @@ namespace Inventory.Models
 
         }
 
-        public List<User> ValidateMemberAsList()
+        public void SignUpSp(string UserName, string Password,int Age,string Role,string ServiceType)
         {
-            string Appseting = ConfigurationManager.AppSettings["EmployeeDBConnectionAppSetting"].ToString();
+            string Constring = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
-            SqlConnection sqlConnection = new SqlConnection(Appseting);
+            SqlConnection sqlConnection = new SqlConnection(Constring);
             sqlConnection.Open();
 
-            string command = "select * from [dbo].[User]";
-            SqlCommand cmd = new SqlCommand(command, sqlConnection);
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "SignUpProcedure";
+            cmd.Connection = sqlConnection;
             cmd.CommandTimeout = 0;
-            cmd.CommandType = CommandType.Text;
+            cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.Clear();
-
-            //List
-            List<User> users = new List<User>();
-            SqlDataReader reader = cmd.ExecuteReader();
-            if(reader.HasRows)
-            {
-                while (reader.Read())
-                {
-                    User user = new User();
-                    user.Id = int.Parse(reader["Id"].ToString());
-                    user.Name = reader["Name"].ToString();
-                    user.Password = reader["Password"].ToString();
-                    user.Age = int.Parse(reader["Age"].ToString());
-                    user.Role = reader["Role"].ToString();
-                    user.Servicetype = reader["Servicetype"].ToString();
-                    users.Add(user);
-                }
-            }
-
+            cmd.Parameters.Add(new SqlParameter("@userName", UserName));
+            cmd.Parameters.Add(new SqlParameter("@Password", Password));
+            cmd.Parameters.Add(new SqlParameter("@Age", Age));
+            cmd.Parameters.Add(new SqlParameter("@Role", Role));
+            cmd.Parameters.Add(new SqlParameter("@ServiceType", ServiceType));
+            cmd.ExecuteNonQuery();
+        
 
 
             cmd.Dispose();
             sqlConnection.Close();
+            return ;
 
-            return users;
         }
 
-    }
 
+    }
     
 }

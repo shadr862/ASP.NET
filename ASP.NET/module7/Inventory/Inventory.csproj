@@ -166,6 +166,20 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jqUI\images\ui-icons_444444_256x240.png" />
+    <Content Include="Scripts\jqUI\images\ui-icons_555555_256x240.png" />
+    <Content Include="Scripts\jqUI\images\ui-icons_777620_256x240.png" />
+    <Content Include="Scripts\jqUI\images\ui-icons_777777_256x240.png" />
+    <Content Include="Scripts\jqUI\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Scripts\jqUI\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Scripts\jqUI\jquery-ui.css" />
+    <Content Include="Scripts\jqUI\jquery-ui.js" />
+    <Content Include="Scripts\jqUI\jquery-ui.min.css" />
+    <Content Include="Scripts\jqUI\jquery-ui.min.js" />
+    <Content Include="Scripts\jqUI\jquery-ui.structure.css" />
+    <Content Include="Scripts\jqUI\jquery-ui.structure.min.css" />
+    <Content Include="Scripts\jqUI\jquery-ui.theme.css" />
+    <Content Include="Scripts\jqUI\jquery-ui.theme.min.css" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -183,6 +197,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Auth\Login.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\Dashboard\EquipmentEntry.cshtml" />
+    <Content Include="Views\Auth\SignUp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
