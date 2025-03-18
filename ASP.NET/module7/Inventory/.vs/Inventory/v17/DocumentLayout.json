@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\module7\\inventory\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\module7\\inventory\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\module7\\inventory\\views\\auth\\forget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:views\\auth\\forget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\module7\\inventory\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\module7\\inventory\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Forget.cshtml",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Views\\Auth\\Forget.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Forget.cshtml",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Views\\Auth\\Forget.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Forget.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T18:10:03.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwFcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:52:18.659Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -36,48 +58,9 @@
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAwEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:25:06.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Views\\Auth\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auth\\SignUp.cshtml",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Views\\Auth\\SignUp.cshtml",
-              "RelativeToolTip": "Views\\Auth\\SignUp.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T15:45:11.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAowD0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T15:27:24.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T15:25:20.819Z",
+              "WhenOpened": "2025-03-17T17:41:02.866Z",
               "EditorCaption": ""
             }
           ]

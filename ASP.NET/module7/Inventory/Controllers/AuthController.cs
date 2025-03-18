@@ -58,10 +58,41 @@ namespace Inventory.Controllers
         public ActionResult SignUp(string UserName,string Password,string Age,string Role,string ServiceType)
         {
             User obj = new User();
+            if (obj.CheckUserName(UserName))
+            {
+                ViewBag.UserName = "Username already Exist";
+                return View();
+            }
             obj.SignUpSp(UserName, Password, int.Parse(Age), Role, ServiceType);
             return Redirect(@Url.Action("Login","Auth"));
         }
 
+        public ActionResult Forget()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Forget(string UserName,string NPassword, string CPassword)
+        {
+            User obj = new User();
+            if (NPassword != CPassword && !obj.CheckUserName(UserName))
+            {
+                ViewBag.Both = "Password are not matching  and Username doesnot Exist";
+                return View();
+            }
+            else if (NPassword != CPassword)
+            {
+                ViewBag.single= "Password are not matching";
+                return View();
+            }
+            else if (!obj.CheckUserName(UserName))
+            {
+                ViewBag.single = "Username doesnot Exist";
+                return View();
+            }
+            obj.ForgetSp(UserName, NPassword);
 
+            return Redirect(Url.Action("Login","Auth"));
+        }
     }
 }

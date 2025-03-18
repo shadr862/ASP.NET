@@ -1,0 +1,69 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Forget Password</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.js"></script>
+    @{
+        string msg1="";
+        if (ViewBag.single != null)
+        {
+            msg1 = ViewBag.single;
+        }
+        string msg2 = "";
+        if (ViewBag.Both != null)
+        {
+            msg2 = ViewBag.Both;
+        }
+    }
+<script>
+        var both= '@msg2';
+        if (both != '') {
+            alert(both);
+        }
+
+        var single = '@msg1';
+        if (single != '')
+        {
+            alert(single);
+        }
+
+</script>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <form method="post" action="@Url.Action("Forget","Auth")">
+                <div class="card">
+                    <div class="card-header" style="text-align:center">
+                        Forget Password
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">UserName</label>
+                            <input type="text" name="UserName" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">New Password</label>
+                            <input type="password" name="NPassword" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+                            <input type="password" name="CPassword" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                        </div>
+
+                        <input type="submit" class="btn btn-primary" value="Submit" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

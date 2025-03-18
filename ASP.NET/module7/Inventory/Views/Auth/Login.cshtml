@@ -27,14 +27,20 @@
         }
 
 
-        #singup {
-            text-decoration:none;
-            display:flex;
-            height:10px;
-            text-align:center;
-            justify-content:center;
+        #forget{
+            margin-top: 10px;
+            text-decoration: none;
+            display: block;
+            height: 10px;
+            text-align: center;
+            justify-content: rcenter;
         }
     </style>
+    <script>
+        function SignUp() {
+            window.location.href = '@Url.Action("SignUp","Auth")';
+        }
+    </script>
 </head>
 <body>
     <h2>@ViewBag.Message</h2>
@@ -55,8 +61,9 @@
                             <input type="password" name="txtPassword" class="form-control" id="exampleFormControlInput1" placeholder="password">
                         </div>
                         <input type="submit" class="btn btn-primary" value="Submit" />
-
-                        <a href='@Url.Action("SignUp","Auth")' id="singup">Sign Up</a>
+                        <a href='@Url.Action("Forget","Auth")' id="forget">Forget Password?</a><br />
+                        <input type="button" class="btn btn-primary" value="Sign Up" onclick="SignUp()" style="display:block;margin:auto"/>
+                        
                     </div>
                 </div>
             </form>

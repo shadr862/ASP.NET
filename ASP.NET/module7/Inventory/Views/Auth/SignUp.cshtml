@@ -12,6 +12,21 @@
     <link href="~/Content/Site.css" rel="stylesheet" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <script src="~/Scripts/bootstrap.js"></script>
+    @{ 
+        string username = "";
+        if(ViewBag.UserName!=null)
+        {
+            username = ViewBag.UserName;
+        }
+    }
+
+    <script>
+        var msg = '@username';
+        if (msg != '')
+        {
+            alert(msg);
+        }
+    </script>
 </head>
 <body>
     <div class="container">

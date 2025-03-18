@@ -48,6 +48,27 @@ namespace Inventory.Models
 
         }
 
+        public bool CheckUserName(string UserName)
+        {
+            string conn = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
+
+            SqlConnection sqlConnection = new SqlConnection(conn);
+            sqlConnection.Open();
+
+            string checkQuery = "SELECT COUNT(*) FROM [dbo].[User] WHERE Name = '" + UserName + "' ";
+            SqlCommand checkCmd = new SqlCommand(checkQuery, sqlConnection);
+            checkCmd.CommandTimeout = 0;
+            int count = (int)checkCmd.ExecuteScalar();
+            
+            checkCmd.Dispose();
+            sqlConnection.Close();
+            if (count >0)
+            {
+                return true;
+            }
+            return false;
+        }
+
         public void SignUpSp(string UserName, string Password,int Age,string Role,string ServiceType)
         {
             string Constring = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
@@ -69,6 +90,33 @@ namespace Inventory.Models
             cmd.Parameters.Add(new SqlParameter("@ServiceType", ServiceType));
             cmd.ExecuteNonQuery();
         
+
+
+            cmd.Dispose();
+            sqlConnection.Close();
+            return ;
+
+        }
+
+        public void ForgetSp(string UserName, string Password)
+        {
+            string Constring = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
+
+            SqlConnection sqlConnection = new SqlConnection(Constring);
+            sqlConnection.Open();
+
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "ForgetProcedure";
+            cmd.Connection = sqlConnection;
+            cmd.CommandTimeout = 0;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Clear();
+            cmd.Parameters.Add(new SqlParameter("@userName", UserName));
+            cmd.Parameters.Add(new SqlParameter("@Password", Password));
+            cmd.ExecuteNonQuery();
+
+           
 
 
             cmd.Dispose();
