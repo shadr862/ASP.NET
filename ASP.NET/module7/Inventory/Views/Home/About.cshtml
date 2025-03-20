@@ -4,16 +4,16 @@
 
 <main aria-labelledby="title">
     <h2 id="title">@ViewBag.Title.</h2>
-    @{ 
+    @*@{ 
         string session = "";
         if(Session["UserName"]!=null)
         {
             session = Session["UserName"].ToString();
         }
     }
-    <h2>@session</h2>
+    <h2>@session</h2>*@
     <h3>@ViewBag.Message</h3>
-    <p>This is Html Syntex</p>
+    @*<p>This is Html Syntex</p>
     <form method="post" action="@Url.Action("About","Home")">
         <input type="submit" value="submit" name="btn" /><br />
         <input type="submit" value="search" name="btn" />
@@ -22,5 +22,5 @@
     <form method="post" action="@Url.Action("Sample","Home")">
         <input type="submit" value="submit" name="btn" /><br />
         <input type="submit" value="search" name="btn" />
-    </form>
+    </form>*@
 </main>

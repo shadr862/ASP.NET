@@ -12,9 +12,9 @@
     <link href="~/Content/Site.css" rel="stylesheet" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <script src="~/Scripts/bootstrap.js"></script>
-    @{ 
+    @{
         string username = "";
-        if(ViewBag.UserName!=null)
+        if (ViewBag.UserName != null)
         {
             username = ViewBag.UserName;
         }
@@ -27,6 +27,20 @@
             alert(msg);
         }
     </script>
+    <style>
+        .inner {
+            max-height:450px;
+            overflow:auto;
+            width: 25%;
+            border: 1px solid #808080;
+            margin: auto;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -38,7 +52,7 @@
                     </div>
                     <div class="card-body">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <label for="exampleFormControlInput1" class="form-label">User Name</label>
                             <input type="text" name="UserName" class="form-control" id="exampleFormControlInput1" placeholder="Username">
                         </div>
                         <div class="mb-3">

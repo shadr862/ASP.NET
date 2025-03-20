@@ -75,9 +75,9 @@ namespace Inventory.Controllers
         public ActionResult Forget(string UserName,string NPassword, string CPassword)
         {
             User obj = new User();
-            if (NPassword != CPassword && !obj.CheckUserName(UserName))
+            if (!obj.CheckUserName(UserName))
             {
-                ViewBag.Both = "Password are not matching  and Username doesnot Exist";
+                ViewBag.Both = "Username doesnot Exist";
                 return View();
             }
             else if (NPassword != CPassword)
@@ -85,11 +85,7 @@ namespace Inventory.Controllers
                 ViewBag.single= "Password are not matching";
                 return View();
             }
-            else if (!obj.CheckUserName(UserName))
-            {
-                ViewBag.single = "Username doesnot Exist";
-                return View();
-            }
+            
             obj.ForgetSp(UserName, NPassword);
 
             return Redirect(Url.Action("Login","Auth"));

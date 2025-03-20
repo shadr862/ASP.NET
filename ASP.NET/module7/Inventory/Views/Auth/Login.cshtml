@@ -15,7 +15,7 @@
     <style>
         
         .inner {
-            height: 300px;
+            height: 360px;
             width: 25%;
             border: 1px solid #808080;
             margin: auto;
@@ -47,21 +47,21 @@
     <div class="container">
         <div class="inner">
             <form method="post" action="@Url.Action("Login","Auth")">
-                <div class="card">
-                    <div class="card-header" style="text-align:center">
+                <div class="card" style="background-color:#a52b2b">
+                    <div class="card-header" style="text-align:center;background-color:#0cb0a9;color:#ffffff">
                         Login
                     </div>
                     <div class="card-body">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <label for="exampleFormControlInput1" class="form-label" style="color:#ffffff" ">User Name</label>
                             <input type="text" name="txtUsername" class="form-control" id="exampleFormControlInput1" placeholder="Username">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                            <label for="exampleFormControlInput1" class="form-label" style="color:#ffffff" ">Password</label>
                             <input type="password" name="txtPassword" class="form-control" id="exampleFormControlInput1" placeholder="password">
                         </div>
                         <input type="submit" class="btn btn-primary" value="Submit" />
-                        <a href='@Url.Action("Forget","Auth")' id="forget">Forget Password?</a><br />
+                        <a href='@Url.Action("Forget","Auth")' id="forget" style="color:#111198">Forget Password?</a><br />
                         <input type="button" class="btn btn-primary" value="Sign Up" onclick="SignUp()" style="display:block;margin:auto"/>
                         
                     </div>
