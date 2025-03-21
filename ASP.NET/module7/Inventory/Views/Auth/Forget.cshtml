@@ -17,18 +17,10 @@
         {
             msg1 = ViewBag.single;
         }
-        string msg2 = "";
-        if (ViewBag.Both != null)
-        {
-            msg2 = ViewBag.Both;
-        }
+       
     }
 <script>
-        var both= '@msg2';
-        if (both != '') {
-            alert(both);
-        }
-
+        
         var single = '@msg1';
         if (single != '')
         {

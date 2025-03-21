@@ -77,7 +77,7 @@ namespace Inventory.Controllers
             User obj = new User();
             if (!obj.CheckUserName(UserName))
             {
-                ViewBag.Both = "Username doesnot Exist";
+                ViewBag.single = "Username doesnot Exist";
                 return View();
             }
             else if (NPassword != CPassword)
