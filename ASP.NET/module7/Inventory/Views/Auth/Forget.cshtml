@@ -12,19 +12,19 @@
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <script src="~/Scripts/bootstrap.js"></script>
     @{
-        string msg1="";
-        if (ViewBag.single != null)
+        string msg="";
+        if (ViewBag.Message != null)
         {
-            msg1 = ViewBag.single;
+            msg = ViewBag.Message;
         }
        
     }
 <script>
         
-        var single = '@msg1';
-        if (single != '')
+        var Message = '@msg';
+        if (Message != '')
         {
-            alert(single);
+            alert(Message);
         }
 
 </script>

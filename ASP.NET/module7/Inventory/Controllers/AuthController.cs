@@ -77,12 +77,12 @@ namespace Inventory.Controllers
             User obj = new User();
             if (!obj.CheckUserName(UserName))
             {
-                ViewBag.single = "Username doesnot Exist";
+                ViewBag.Message = "Username doesnot Exist";
                 return View();
             }
             else if (NPassword != CPassword)
             {
-                ViewBag.single= "Password are not matching";
+                ViewBag.Message = "Password are not matching";
                 return View();
             }
             
