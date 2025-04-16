@@ -24,16 +24,23 @@ namespace Inventory.Controllers
             EquipmentList obj = new EquipmentList();
             if (btnSubmit == "Delete")
             {
-                obj.DeleteRow(int.Parse(EquipmentID));
+                obj.DeleteRow(int.Parse(EquipmentID));  
             }
-            else if(btnSubmit == "Save")
+            else if (btnSubmit == "Save")
             {
-                obj.Equipmentid = Convert.ToInt32(formCollection["EquipmentID"].ToString());
-                obj.EquipmentName = formCollection["txtName"].ToString();
-                obj.Quantity = Convert.ToInt32(formCollection["txtQuantity"].ToString());
-                obj.EntryDate = Convert.ToDateTime(formCollection["txtEntryDate"].ToString());
-                obj.EndDate = Convert.ToDateTime(formCollection["txtEndDate"].ToString());
-                obj.SaveEquipment();
+                if (obj.checkValidity(Convert.ToInt32(formCollection["EquipmentID"].ToString())))
+                {
+                    ViewBag.Message = "ID already exist";
+                }
+                else
+                {
+                    obj.Equipmentid = Convert.ToInt32(formCollection["EquipmentID"].ToString());
+                    obj.EquipmentName = formCollection["txtName"].ToString();
+                    obj.Quantity = Convert.ToInt32(formCollection["txtQuantity"].ToString());
+                    obj.EntryDate = Convert.ToDateTime(formCollection["txtEntryDate"].ToString());
+                    obj.EndDate = Convert.ToDateTime(formCollection["txtEndDate"].ToString());
+                    obj.SaveEquipment(Convert.ToInt32(formCollection["choice"].ToString()));
+                }
             }
             else if (btnSubmit == "Update")
             {
@@ -42,7 +49,7 @@ namespace Inventory.Controllers
                 obj.Quantity = Convert.ToInt32(formCollection["txtQuantity"].ToString());
                 obj.EntryDate = Convert.ToDateTime(formCollection["txtEntryDate"].ToString());
                 obj.EndDate = Convert.ToDateTime(formCollection["txtEndDate"].ToString());
-                obj.SaveEquipment();
+                obj.SaveEquipment(Convert.ToInt32(formCollection["choice"].ToString()));
             }
 
             EquipmentList equipmentList = new EquipmentList();
@@ -51,7 +58,8 @@ namespace Inventory.Controllers
 
             return View();
         }
-       
-    } 
-        
+
     }
+}
+        
+    

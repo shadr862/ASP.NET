@@ -11,9 +11,10 @@
     <form method="post" action="@Url.Action("Index","Dashboard")">
         <div class="card" ">
             <div class="card-body">
+                <input type="hidden" id="choice" name="choice" value="0" />
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label" style="color:#ffffff" ">EquipmentID</label>
-                    <input type="text" name="EquipmentID" class="form-control" id="exampleFormControlInput1" placeholder="EquipmentID">
+                    <input type="text" name="EquipmentID" class="form-control" id="EquipmentID" placeholder="EquipmentID">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput2" class="form-label" style="color:#ffffff" ">Name</label>

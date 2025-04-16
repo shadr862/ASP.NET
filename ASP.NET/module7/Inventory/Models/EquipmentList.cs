@@ -82,7 +82,7 @@ namespace Inventory.Models
 
 
 
-        public void SaveEquipment()
+        public void SaveEquipment(int choice)
         {
             string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
@@ -95,6 +95,7 @@ namespace Inventory.Models
             cmd.CommandTimeout = 0;
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.Clear();
+            cmd.Parameters.Add(new SqlParameter("@choice", choice));
             cmd.Parameters.Add(new SqlParameter("@Equipmentid", this.Equipmentid));
             cmd.Parameters.Add(new SqlParameter("@EquipmentName", this.EquipmentName));
             cmd.Parameters.Add(new SqlParameter("@Quantity", this.Quantity));
@@ -107,7 +108,27 @@ namespace Inventory.Models
 
 
 
+        public bool checkValidity(int id)
+        {
+            string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
+            SqlConnection sqlConnection = new SqlConnection(constr);
+            sqlConnection.Open();
+
+            string checkQuery = "SELECT COUNT(*) FROM [dbo].[EquipmentList] WHERE Equipmentid = '" + id + "' ";
+            SqlCommand checkCmd = new SqlCommand(checkQuery, sqlConnection);
+            checkCmd.CommandTimeout = 0;
+            int count = (int)checkCmd.ExecuteScalar();
+
+            checkCmd.Dispose();
+            sqlConnection.Close();
+
+            if (count > 0)
+            {
+                return true;
+            }
+            return false;
+        }
 
 
 

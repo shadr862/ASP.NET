@@ -3,6 +3,7 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <style>
     #customers {
         font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +23,7 @@
 
         #customers tr:hover {
             background-color: #ddd;
-            transform:translateY(-5px);
+            transform: translateY(-5px);
         }
 
         #customers th {
@@ -33,10 +34,18 @@
             color: white;
         }
 </style>
+@{
+    string msg = "";
+    if (ViewBag.Message != null)
+    {
+        msg = ViewBag.Message;
+    }
+
+}
 <script>
     //Leagcy part
     /*
-    function ShowModel() { 
+    function ShowModel() {
         document.getElementById('dvOverlay').style.display = '';
         document.getElementById('dvModal').style.display = '';
     }
@@ -45,15 +54,24 @@
         document.getElementById('dvModal').style.display = 'none';
     }
     */
+   var Message = '@msg';
+   if (Message != '')
+   {
+      alert(Message);
+   }
 
     // Dynamic Part
     function UpdateItem(ID) {
         ShowModel();
         $('#btnSubmit').val('Update');
+        $('#choice').val('1');
+        $('#EquipmentID').val(ID); // Use the actual variable
+        $('#EquipmentID').attr('type', 'hidden'); // Set the input type to hidden
     }
+
     function ShowModel() {
         $('#dvModal').dialog({
-            title:"Equipment Entry",
+            title: "Equipment Entry",
             height: 500,
             width: 400,
             modal: true
@@ -66,9 +84,9 @@
 
         });
     }
-    
 
-   
+
+
 </script>
 
 <div class="row">
@@ -97,9 +115,9 @@
                         foreach (var item in list)
                         {
                             <tr>
-                                <td><input type="hidden" name="EquipmentID" value="@item.Equipmentid"/></td>
+                                <td><input type="hidden" name="EquipmentID" value="@item.Equipmentid" /></td>
                                 <td><input type="button" value="Update" onclick="UpdateItem(@item.Equipmentid)" /></td>
-                                <td><input type="submit" value="Delete" name="btnSubmit"  /></td>
+                                <td><input type="submit" value="Delete" name="btnSubmit" /></td>
                                 <td>@item.EquipmentName</td>
                                 <td>@item.Quantity</td>
                                 <td>@item.EntryDate</td>
@@ -115,11 +133,11 @@
         </div>
 
     </div>
-      
+
     <div class="col col-sm-6">
         <div style="background-color: lightcoral; width: 100%; text-align: center; padding: 5px">caption2</div>
         <div style="max-height:400px; width:100%;overflow:auto">
-            
+
         </div>
 
     </div>
