@@ -8,18 +8,32 @@
 
 @*dynamic part*@
 <div id="dvModal" style="display: none">
-    <form>
-        <fieldset>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name"class="text ui-widget-content ui-corner-all"><br />
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email"class="text ui-widget-content ui-corner-all"><br />
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" class="text ui-widget-content ui-corner-all"><br />
-
-            <!-- Allow form submission with keyboard without duplicating the dialog button -->
-            <input type="submit"/>
-        </fieldset>
+    <form method="post" action="@Url.Action("Index","Dashboard")">
+        <div class="card" ">
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label" style="color:#ffffff" ">EquipmentID</label>
+                    <input type="text" name="EquipmentID" class="form-control" id="exampleFormControlInput1" placeholder="EquipmentID">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label" style="color:#ffffff" ">Name</label>
+                    <input type="text" name="txtName" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput3" class="form-label" style="color:#ffffff" ">Quantity</label>
+                    <input type="text" name="txtQuantity" class="form-control" id="exampleFormControlInput1" placeholder="Quantity">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput4" class="form-label" style="color:#ffffff" ">Entry Date</label>
+                    <input type="date" name="txtEntryDate" class="form-control" id="exampleFormControlInput1" placeholder="EntryDate">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput5" class="form-label" style="color:#ffffff" ">End Date</label>
+                    <input type="date" name="txtEndDate" class="form-control" id="exampleFormControlInput1" placeholder="EndDate">
+                </div>
+                <input type="submit" id="btnSubmit" class="btn btn-primary" name="btnSubmit" value="Save" />
+            </div>
+        </div>
     </form>
 </div>
 

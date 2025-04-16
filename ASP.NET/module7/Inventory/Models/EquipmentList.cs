@@ -82,7 +82,28 @@ namespace Inventory.Models
 
 
 
+        public void SaveEquipment()
+        {
+            string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
+            SqlConnection sqlConnection = new SqlConnection(constr);
+            sqlConnection.Open();
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "Save_Procedure";
+            cmd.Connection = sqlConnection;
+            cmd.CommandTimeout = 0;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Clear();
+            cmd.Parameters.Add(new SqlParameter("@Equipmentid", this.Equipmentid));
+            cmd.Parameters.Add(new SqlParameter("@EquipmentName", this.EquipmentName));
+            cmd.Parameters.Add(new SqlParameter("@Quantity", this.Quantity));
+            cmd.Parameters.Add(new SqlParameter("@EntryDate", this.EntryDate));
+            cmd.Parameters.Add(new SqlParameter("@EndDate", this.EndDate));
+            cmd.ExecuteNonQuery();
+            cmd.Dispose();
+            sqlConnection.Close();
+        }
 
 
 

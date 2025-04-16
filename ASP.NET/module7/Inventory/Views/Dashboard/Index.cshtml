@@ -47,37 +47,28 @@
     */
 
     // Dynamic Part
+    function UpdateItem(ID) {
+        ShowModel();
+        $('#btnSubmit').val('Update');
+    }
     function ShowModel() {
         $('#dvModal').dialog({
             title:"Equipment Entry",
             height: 500,
             width: 400,
-            modal: true,
-            buttons: {
-                Cancel: function () {
-                    dialog.dialog("close");
-                },
-                Ok: function () {
-                    dialog.dialog("Ok");
-                }
-            }
+            modal: true
+            //,
+            //buttons: {
+            //    Ok: function () {
+            //       dialog.dialog("Ok");
+            //    }
+            //}
 
         });
     }
-    function HideModel() {
-        
-    }
+    
 
-    function DeleteItem(id) {
-        $.ajax({
-            url: '@Url.Action("Delete","Dashboard")',
-            type: 'POST',
-            data: { ID: id },
-            success: function(response) {
-                /*alert('Data sent successfully!')*/
-            }
-        });
-    }
+   
 </script>
 
 <div class="row">
@@ -87,36 +78,40 @@
             <input type="button" value="New" style="float:right" onclick="ShowModel()" />
         </div>
         <div style="max-height:400px; width:100%;overflow:auto">
-            <table id="customers">
-                <tr>
-                    <th>Update</th>
-                    <th>Delete</th>
-                    <th>EquipmentName</th>
-                    <th>Quantity</th>
-                    <th>EntryDate</th>
-                    <th>EndDate</th>
-                </tr>
-                @{
-                    //EquipmentList obj = new EquipmentList();
-
-                    List<EquipmentList> list = (List<EquipmentList>)ViewBag.EquipmentList;
-
-                    foreach (var item in list)
-                    {
+            <form action="@Url.Action("Index","Dashboard")" method="post">
+                <table id="customers">
                     <tr>
-                        <td><input type="button" value="Update" onclick="UpdateItem(@item.Equipmentid)" /></td>
-                        <td><input type="button" value="Delete" onclick="DeleteItem(@item.Equipmentid)" /></td>
-                        <td>@item.EquipmentName</td>
-                        <td>@item.Quantity</td>
-                        <td>@item.EntryDate</td>
-                        <td>@item.EndDate</td>
+                        <th></th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                        <th>EquipmentName</th>
+                        <th>Quantity</th>
+                        <th>EntryDate</th>
+                        <th>EndDate</th>
                     </tr>
+                    @{
+                        //EquipmentList obj = new EquipmentList();
 
+                        List<EquipmentList> list = (List<EquipmentList>)ViewBag.EquipmentList;
+
+                        foreach (var item in list)
+                        {
+                            <tr>
+                                <td><input type="hidden" name="EquipmentID" value="@item.Equipmentid"/></td>
+                                <td><input type="button" value="Update" onclick="UpdateItem(@item.Equipmentid)" /></td>
+                                <td><input type="submit" value="Delete" name="btnSubmit"  /></td>
+                                <td>@item.EquipmentName</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.EntryDate</td>
+                                <td>@item.EndDate</td>
+                            </tr>
+
+                        }
                     }
-                    }
 
 
-            </table>
+                </table>
+            </form>
         </div>
 
     </div>
