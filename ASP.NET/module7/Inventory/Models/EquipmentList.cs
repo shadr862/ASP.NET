@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 using System.Web.WebPages;
 
 namespace Inventory.Models
@@ -132,7 +133,29 @@ namespace Inventory.Models
 
 
 
+    public DataTable AssignedEquipmentList()
+    {
+            string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
+            SqlConnection sqlConnection = new SqlConnection(constr);
+            sqlConnection.Open();
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "AssignedEquipmentList_procedure";
+            cmd.Connection = sqlConnection;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandTimeout = 0;
+            cmd.Parameters.Clear();
+
+            DataTable dt = new DataTable();
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
+            dataAdapter.Fill(dt);
+
+            cmd.Dispose();
+            sqlConnection.Close();
+
+            return dt;
+    }
 
 
 

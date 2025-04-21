@@ -200,6 +200,7 @@
     <Content Include="Views\Dashboard\EquipmentEntry.cshtml" />
     <Content Include="Views\Auth\SignUp.cshtml" />
     <Content Include="Views\Auth\Forget.cshtml" />
+    <Content Include="Views\Dashboard\NewAssignedEquipment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

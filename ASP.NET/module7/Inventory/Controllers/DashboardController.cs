@@ -59,6 +59,21 @@ namespace Inventory.Controllers
             return View();
         }
 
+        public ActionResult NewAssignedEquipment()
+        {
+            EquipmentList equipmentList= new EquipmentList();
+            List<EquipmentList> list = equipmentList.equipmentLists();
+
+            ViewBag.lstEquipment = list;
+            return View();
+        }
+        [HttpPost]
+        public ActionResult NewAssignedEquipment(FormCollection formCollection)
+        {
+            
+            return View();
+        }
+
     }
 }
         
