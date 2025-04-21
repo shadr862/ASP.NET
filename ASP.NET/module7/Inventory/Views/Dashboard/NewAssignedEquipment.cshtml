@@ -1,7 +1,49 @@
-﻿
+﻿@using Inventory.Models;
+
 @{
     ViewBag.Title = "AssignedEquipment";
 }
+@{ 
+    List<EquipmentList> equipmentLists = ViewBag.lstEquipment;
+    List<Customer> customerList=ViewBag.customerList ;
+}
 
-<h2>AssignedEquipment</h2>
+<h2>New AssignedEquipment</h2>
 
+<form method="post" action="@Url.Action("NewAssignedEquipment","Dashboard")">
+    <div class="card" ">
+        <div class="card-body">
+            <label for="exampleFormControlInput1" class="form-label" ">Equipment Name</label>
+            <select name="EquipmentID" class="form-control" id="exampleFormControlInput1" placeholder="EquipmentID">
+
+                @{
+                    foreach (var obj in equipmentLists)
+                    {
+                        <option value="@obj.Equipmentid">
+                            @obj.EquipmentName
+                        </option>
+                    }
+                }
+            </select>
+            <br />
+            <label for="exampleFormControlInput1" class="form-label"  ">Customer Name</label>
+            <select name="CustomerID" class="form-control" id="exampleFormControlInput1" placeholder="CustomerID">
+
+                @{
+                    foreach (var obj1 in customerList)
+                    {
+                        <option value="@obj1.CustomerID">
+                            @obj1.CustomertName
+                        </option>
+                    }
+                }
+            </select>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput3" class="form-label" style="color:#ffffff" ">Quantity</label>
+                <input type="text" name="txtQuantity" class="form-control" id="exampleFormControlInput1" placeholder="Quantity">
+            </div>
+
+            <input type="submit" id="btnSubmit" class="btn btn-primary" name="btnSubmit" value="Save" />
+        </div>
+        

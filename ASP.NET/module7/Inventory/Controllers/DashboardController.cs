@@ -64,7 +64,13 @@ namespace Inventory.Controllers
             EquipmentList equipmentList= new EquipmentList();
             List<EquipmentList> list = equipmentList.equipmentLists();
 
+            Customer customer = new Customer();
+            List<Customer> customerList = customer.CustomerList();
+
+
+
             ViewBag.lstEquipment = list;
+            ViewBag.customerList = customerList;
             return View();
         }
         [HttpPost]
