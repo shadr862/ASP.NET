@@ -55,7 +55,9 @@ namespace Inventory.Models
 
        }
 
-        public void DeleteRow(int id)
+
+
+       public void DeleteRow(int id)
         {
             string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
@@ -83,7 +85,7 @@ namespace Inventory.Models
 
 
 
-        public void SaveEquipment(int choice)
+       public void SaveEquipment(int choice)
         {
             string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
@@ -109,7 +111,7 @@ namespace Inventory.Models
 
 
 
-        public bool checkValidity(int id)
+       public bool checkValidity(int id)
         {
             string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
@@ -133,7 +135,7 @@ namespace Inventory.Models
 
 
 
-    public DataTable AssignedEquipmentList()
+       public DataTable AssignedEquipmentList()
     {
             string constr = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
 
@@ -158,7 +160,26 @@ namespace Inventory.Models
     }
 
 
+        public static int SaveEquipmentAssignment(FormCollection frmCol)
+        {
+            string Connstring = ConfigurationManager.ConnectionStrings["EmployeeDBConnection"].ToString();
+            SqlConnection sqlConnection = new SqlConnection(Connstring);
+            sqlConnection.Open();
 
+            string CommandText = "Save_NewAssignCustomer";
+            SqlCommand cmd = new SqlCommand(CommandText, sqlConnection);
+            cmd.CommandTimeout = 0;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Clear();
+            cmd.Parameters.Add(new SqlParameter("@CustomerID", Convert.ToInt32(frmCol["txtCustomerID"].ToString())));
+            cmd.Parameters.Add(new SqlParameter("@EquipmentID", Convert.ToInt32(frmCol["txtEquipmentID"].ToString())));
+            cmd.Parameters.Add(new SqlParameter("@EquiCount", Convert.ToInt32(frmCol["txtQuantity"].ToString())));
+            //cmd.Parameters.Add()
+            int returnvalue = cmd.ExecuteNonQuery();
+            cmd.Dispose();
+            sqlConnection.Close();
+            return returnvalue;
+        }
 
 
 

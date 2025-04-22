@@ -3,18 +3,47 @@
 @{
     ViewBag.Title = "AssignedEquipment";
 }
-@{ 
+@{
     List<EquipmentList> equipmentLists = ViewBag.lstEquipment;
-    List<Customer> customerList=ViewBag.customerList ;
+    List<Customer> customerList = ViewBag.customerList;
+}
+@{
+    var mode = Request["mode"];
+    int CID = 0;
+    int EID = 0;
+    int QT = 0;
+    if (mode != null)
+    {
+        CID = int.Parse(Request["cid"]);
+        EID = int.Parse(Request["eid"]);
+        QT = int.Parse(Request["qt"]);
+    }
+
+    var isUpdate = mode == "Update";
+
 }
 
-<h2>New AssignedEquipment</h2>
+<script>
+    $(document).ready(function () {
+        // Your code here
+        var eid = @Html.Raw(Json.Encode(EID));
+        $('#exampleFormControlInput1').val(eid);
+        var cid = @Html.Raw(Json.Encode(CID));
+        $('#exampleFormControlInput2').val(cid);
+        var qt = @Html.Raw(Json.Encode(QT));
+        $('#input3').val(qt);
+
+    });
+
+</script>
+
+<h2 id="Titel">New Assigned Equipment</h2>
 
 <form method="post" action="@Url.Action("NewAssignedEquipment","Dashboard")">
     <div class="card" ">
         <div class="card-body">
             <label for="exampleFormControlInput1" class="form-label" ">Equipment Name</label>
-            <select name="EquipmentID" class="form-control" id="exampleFormControlInput1" placeholder="EquipmentID">
+            <select name="txtEquipmentID" class="form-control" id="exampleFormControlInput1" placeholder="EquipmentID">
 
                 @{
                     foreach (var obj in equipmentLists)
@@ -26,8 +55,8 @@
                 }
             </select>
             <br />
-            <label for="exampleFormControlInput1" class="form-label"  ">Customer Name</label>
-            <select name="CustomerID" class="form-control" id="exampleFormControlInput1" placeholder="CustomerID">
+            <label for="exampleFormControlInput2" class="form-label" ">Customer Name</label>
+            <select name="txtCustomerID" class="form-control" id="exampleFormControlInput2" placeholder="CustomerID">
 
                 @{
                     foreach (var obj1 in customerList)
@@ -38,12 +67,11 @@
                     }
                 }
             </select>
-
+            <br />
             <div class="mb-3">
-                <label for="exampleFormControlInput3" class="form-label" style="color:#ffffff" ">Quantity</label>
-                <input type="text" name="txtQuantity" class="form-control" id="exampleFormControlInput1" placeholder="Quantity">
+                <label for="input3" class="form-label">Quantity</label>
+                <input type="text" name="txtQuantity" id="input3" class="form-control" placeholder="Quantity">
             </div>
 
-            <input type="submit" id="btnSubmit" class="btn btn-primary" name="btnSubmit" value="Save" />
+            <input type="submit" id="btnSubmit" class="btn btn-primary" name="btnSubmit" value="@(isUpdate ? "Update" : "Save")" />
         </div>
-        

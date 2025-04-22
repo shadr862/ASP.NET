@@ -1,36 +1,65 @@
 ﻿@*Legacy part*@
 @*<div id="dvOverlay" style="display:none;position:fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; background-color: #000000; opacity: 0.5; z-index: 5">
 
-</div>
-<div id="dvModal" style="display: none; position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 500px; width: 400px; margin: auto; z-index: 6; background-color: #ffffff ">
-    <input type="button" value="Close" onclick="HideModel()" />
-</div>*@
+    </div>
+    <div id="dvModal" style="display: none; position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 500px; width: 400px; margin: auto; z-index: 6; background-color: #ffffff ">
+        <input type="button" value="Close" onclick="HideModel()" />
+    </div>*@
 
 @*dynamic part*@
+@using Inventory.Models;
+@{
+    string ID = Request.QueryString["EquipmentID"];
+    string E_name = "";
+    List<EquipmentList> list = ViewBag.EquipmentList;
+    if (ID != null)
+    {
+        foreach (var item in list)
+        {
+            if (item.Equipmentid == int.Parse(ID))
+            {
+                E_name = item.EquipmentName;
+            }
+        }
+    }
+}
+<script>
+    $(document).ready(function () {
+        // Your code here
+        var ID = $('EquipmentID').val();
+        $('EquipmentID').val(ID);
+
+        var name =@Html.Raw(Json.Encode(E_name));
+        $('exampleFormControlInput2').val(name);
+
+    });
+
+</script>
+
 <div id="dvModal" style="display: none">
     <form method="post" action="@Url.Action("Index","Dashboard")">
         <div class="card" ">
             <div class="card-body">
                 <input type="hidden" id="choice" name="choice" value="0" />
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label" style="color:#ffffff" ">EquipmentID</label>
+                    <label for="exampleFormControlInput1" class="form-label" ">EquipmentID</label>
                     <input type="text" name="EquipmentID" class="form-control" id="EquipmentID" placeholder="EquipmentID">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput2" class="form-label" style="color:#ffffff" ">Name</label>
-                    <input type="text" name="txtName" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    <label for="exampleFormControlInput2" class="form-label" ">Name</label>
+                    <input type="text" name="txtName" class="form-control" id="exampleFormControlInput2" placeholder="Name">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput3" class="form-label" style="color:#ffffff" ">Quantity</label>
-                    <input type="text" name="txtQuantity" class="form-control" id="exampleFormControlInput1" placeholder="Quantity">
+                    <label for="exampleFormControlInput3" class="form-label" ">Quantity</label>
+                    <input type="text" name="txtQuantity" class="form-control" id="exampleFormControlInput3" placeholder="Quantity">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput4" class="form-label" style="color:#ffffff" ">Entry Date</label>
-                    <input type="date" name="txtEntryDate" class="form-control" id="exampleFormControlInput1" placeholder="EntryDate">
+                    <label for="exampleFormControlInput4" class="form-label" ">Entry Date</label>
+                    <input type="date" name="txtEntryDate" class="form-control" id="exampleFormControlInput4" placeholder="EntryDate">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput5" class="form-label" style="color:#ffffff" ">End Date</label>
-                    <input type="date" name="txtEndDate" class="form-control" id="exampleFormControlInput1" placeholder="EndDate">
+                    <label for="exampleFormControlInput5" class="form-label" ">End Date</label>
+                    <input type="date" name="txtEndDate" class="form-control" id="exampleFormControlInput5" placeholder="EndDate">
                 </div>
                 <input type="submit" id="btnSubmit" class="btn btn-primary" name="btnSubmit" value="Save" />
             </div>

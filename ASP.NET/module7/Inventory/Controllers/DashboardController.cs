@@ -76,7 +76,14 @@ namespace Inventory.Controllers
         [HttpPost]
         public ActionResult NewAssignedEquipment(FormCollection formCollection)
         {
-            
+            int returnval = EquipmentList.SaveEquipmentAssignment(formCollection);
+            if (returnval > 0)
+            {
+                return Redirect(Url.Action("Index", "Dashboard"));
+            }
+            ViewBag.OutMessage = "Operation failed";
+            return View();
+
             return View();
         }
 

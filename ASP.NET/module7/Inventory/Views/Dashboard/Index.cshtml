@@ -43,6 +43,7 @@
     }
 
 }
+
 <script>
     //Leagcy part
     /*
@@ -62,28 +63,28 @@
    }
 
     // Dynamic Part
+
     function UpdateItem(ID) {
         ShowModel();
         $('#btnSubmit').val('Update');
         $('#choice').val('1');
-        $('#EquipmentID').val(ID); // Use the actual variable
-        $('#EquipmentID').attr('type', 'hidden'); // Set the input type to hidden
+        $('#EquipmentID').val(ID); 
     }
 
     function ShowModel() {
+        $('#EquipmentID').val('');
         $('#dvModal').dialog({
             title: "Equipment Entry",
             height: 500,
             width: 400,
             modal: true
-            //,
-            //buttons: {
-            //    Ok: function () {
-            //       dialog.dialog("Ok");
-            //    }
-            //}
-
         });
+    }
+
+    function UpdateAssignedCustomer(CID, EID, QT) {
+        $('#Titel').text('Update');
+        const url = '@Url.Action("NewAssignedEquipment", "Dashboard")' +'?cid=' + CID + '&eid=' + EID + '&qt=' + QT + '&mode=Update';
+        window.location.href = url;
     }
 
 
@@ -141,46 +142,51 @@
             <input type="button" value="New" style="float:right" onclick="window.location.href='@Url.Action("NewAssignedEquipment","Dashboard")'" />
         </div>
         <div style="max-height:400px; width:100%;overflow:auto">
-            @{ 
+            @{
                 EquipmentList obj = new EquipmentList();
                 System.Data.DataTable dt = obj.AssignedEquipmentList();
 
                 var dataList = (from p in dt.AsEnumerable()
-                               select new
-                               {
-                                   CustomerID=p.Field<int>("CustomerID"),
-                                   CustomerName=p.Field<string>("CustomerName"),
-                                   CustomerMob=p.Field<string>("CustomerMob"),
-                                   CustomerAdd=p.Field<string>("CustomerAdd"),
-                                   EqCount=p.Field<int>("EqCount"),
-                                   EquipmentName=p.Field<string>("EquipmentName")
-                               }).ToList();
+                                select new
+                                {
+                                    CustomerID = p.Field<int>("CustomerID"),
+                                    CustomerName = p.Field<string>("CustomerName"),
+                                    CustomerMob = p.Field<string>("CustomerMob"),
+                                    CustomerAdd = p.Field<string>("CustomerAdd"),
+                                    EquipmentAssignment = p.Field<int>("EqCount"),
+                                    EquipmentName = p.Field<string>("EquipmentName"),
+                                    EquipmentID = p.Field<int>("EquipmentID")
+                                }).ToList();
             }
             <form action="@Url.Action("Index","Dashboard")" method="post">
                 <table id="customers1">
                     <tr>
-                        <th></th>
+
                         <th>Update</th>
                         <th>Delete</th>
                         <th>Customer Name</th>
                         <th>Customer Mobile</th>
                         <th>Equipment Name</th>
-                        <th>Equipment Count</th>
+                        <th>Equipment Assignment</th>
 
                     </tr>
                     @{
-                        
+
 
                         foreach (var item in dataList)
                         {
+                            string DisabledStr = "";
+                            if (item.EquipmentAssignment == 0)
+                            {
+                                DisabledStr = "disabled=disabled";
+                            }
                             <tr>
-                                <td><input type="hidden" name="CustomerID" value="@item.CustomerID" /></td>
-                                <td><input type="button" value="Update" onclick="UpdateItem(@item.CustomerID)" /></td>
-                                <td><input type="submit" value="Delete" name="btnSubmit" /></td>
+                                <td><input type="button" value="Update" onclick="UpdateAssignedCustomer(@item.CustomerID,@item.EquipmentID,@item.EquipmentAssignment)" @DisabledStr /></td>
+                                <td><input type="submit" value="Delete" name="btnSubmit" @DisabledStr /></td>
                                 <td>@item.CustomerName</td>
                                 <td>@item.CustomerMob</td>
                                 <td>@item.EquipmentName</td>
-                                <td>@item.EqCount</td>
+                                <td>@item.EquipmentAssignment</td>
                             </tr>
 
                         }

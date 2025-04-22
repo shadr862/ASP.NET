@@ -6,19 +6,23 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    @{ 
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/jqUI/jquery-ui.js"></script>
+    <link href="~/Scripts/jqUI/jquery-ui.css" rel="stylesheet" />
+    @RenderSection("scripts", required: false)
+    @{
         string session = "";
-        if(Session["UserName"]!= null)
+        if (Session["UserName"] != null)
         {
             session = Session["UserName"].ToString();
         }
     }
-<script>
+    <script>
         var username = '@session';
         if (username == '') {
             window.location.href='@Url.Action("Login", "Auth")';
         }
-</script>
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
@@ -48,10 +52,6 @@
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
-    @Scripts.Render("~/bundles/jquery")
-    <script src="~/Scripts/jqUI/jquery-ui.js"></script>
-    <link href="~/Scripts/jqUI/jquery-ui.css" rel="stylesheet" />
-    @*@Scripts.Render("~/bundles/bootstrap")*@
-    @RenderSection("scripts", required: false)
+    
 </body>
 </html>
