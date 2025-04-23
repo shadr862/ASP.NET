@@ -64,15 +64,22 @@
 
     // Dynamic Part
 
-    function UpdateItem(ID) {
+    function UpdateEquipment(E_ID, E_Nm) {
         ShowModel();
         $('#btnSubmit').val('Update');
         $('#choice').val('1');
-        $('#EquipmentID').val(ID); 
+        $('#EquipmentID').val(parseInt(E_ID));
+        $('#EquipmentID').attr('onblur', '');
+        $('#EquipmentName').val(E_Nm);
+        $('#EquipmentName').attr('onblur', '');
+        
     }
 
     function ShowModel() {
         $('#EquipmentID').val('');
+        $('#EquipmentID').attr('onblur', 'ShowEquipmentID(this)');
+        $('#EquipmentName').val('');
+        $('#EquipmentName').attr('onblur', 'ShowEquipmentName(this)');
         $('#dvModal').dialog({
             title: "Equipment Entry",
             height: 500,
@@ -118,7 +125,7 @@
                         {
                             <tr>
                                 <td><input type="hidden" name="EquipmentID" value="@item.Equipmentid" /></td>
-                                <td><input type="button" value="Update" onclick="UpdateItem(@item.Equipmentid)" /></td>
+                                <td><input type="button" value="Update" onclick="UpdateEquipment('@item.Equipmentid','@item.EquipmentName')" /></td>
                                 <td><input type="submit" value="Delete" name="btnSubmit" /></td>
                                 <td>@item.EquipmentName</td>
                                 <td>@item.Quantity</td>
@@ -182,7 +189,7 @@
                             }
                             <tr>
                                 <td><input type="button" value="Update" onclick="UpdateAssignedCustomer(@item.CustomerID,@item.EquipmentID,@item.EquipmentAssignment)" @DisabledStr /></td>
-                                <td><input type="submit" value="Delete" name="btnSubmit" @DisabledStr /></td>
+                                <td><input type="button" value="Delete"  @DisabledStr /></td>
                                 <td>@item.CustomerName</td>
                                 <td>@item.CustomerMob</td>
                                 <td>@item.EquipmentName</td>

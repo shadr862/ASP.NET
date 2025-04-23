@@ -9,31 +9,43 @@
 @*dynamic part*@
 @using Inventory.Models;
 @{
-    string ID = Request.QueryString["EquipmentID"];
-    string E_name = "";
+
     List<EquipmentList> list = ViewBag.EquipmentList;
-    if (ID != null)
-    {
-        foreach (var item in list)
-        {
-            if (item.Equipmentid == int.Parse(ID))
-            {
-                E_name = item.EquipmentName;
-            }
-        }
-    }
+    string jsArr = Newtonsoft.Json.JsonConvert.SerializeObject(list);
 }
 <script>
     $(document).ready(function () {
         // Your code here
         var ID = $('EquipmentID').val();
         $('EquipmentID').val(ID);
-
-        var name =@Html.Raw(Json.Encode(E_name));
-        $('exampleFormControlInput2').val(name);
-
+        
     });
 
+    var Eq_listArr = JSON.parse('@Html.Raw(jsArr)');
+    console.log(Eq_listArr);
+
+    function ShowEquipmentID(cntrol) {
+        var equipmentID = $(cntrol).val();
+
+        $.each(Eq_listArr, function (index, obj) {
+            if (obj.Equipmentid == parseInt(equipmentID)) {
+                alert("This ID is Available.You can not Use it");
+                $(cntrol).val('');
+            }
+
+        })
+    }
+    function ShowEquipmentName(cntrol) {
+        var equipmentName = $(cntrol).val()
+        $('#spnName').html("");
+        $.each(Eq_listArr, function (index, obj) {
+            if (obj.EquipmentName == equipmentName) {
+                alert("This Name is Available.You can not Use it");
+                $(cntrol).val('');
+            }
+
+        })
+    }
 </script>
 
 <div id="dvModal" style="display: none">
@@ -43,11 +55,13 @@
                 <input type="hidden" id="choice" name="choice" value="0" />
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label" ">EquipmentID</label>
-                    <input type="text" name="EquipmentID" class="form-control" id="EquipmentID" placeholder="EquipmentID">
+                    <input type="text" name="EquipmentID" class="form-control" id="EquipmentID" placeholder="EquipmentID" onblur="ShowEquipmentID(this)">
+                    
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput2" class="form-label" ">Name</label>
-                    <input type="text" name="txtName" class="form-control" id="exampleFormControlInput2" placeholder="Name">
+                    <input type="text" name="txtName" class="form-control" id="EquipmentName" placeholder="Name" onblur="ShowEquipmentName(this)">
+                    
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput3" class="form-label" ">Quantity</label>

@@ -166,7 +166,15 @@ namespace Inventory.Models
             SqlConnection sqlConnection = new SqlConnection(Connstring);
             sqlConnection.Open();
 
-            string CommandText = "Save_NewAssignCustomer";
+            string CommandText = "";
+            if (frmCol["btnSubmit"].ToString()== "Save")
+            {
+                CommandText = "Save_NewAssignCustomer";
+            }
+            else if(frmCol["btnSubmit"].ToString() == "Update")
+            {
+                CommandText = "Update_NewAssignCustomer";
+            }
             SqlCommand cmd = new SqlCommand(CommandText, sqlConnection);
             cmd.CommandTimeout = 0;
             cmd.CommandType = CommandType.StoredProcedure;

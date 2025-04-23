@@ -4,20 +4,18 @@
     ViewBag.Title = "AssignedEquipment";
 }
 @{
-    List<EquipmentList> equipmentLists = ViewBag.lstEquipment;
     List<Customer> customerList = ViewBag.customerList;
+    List<EquipmentList> equipmentLists = ViewBag.lstEquipment;
+    string jsArr= Newtonsoft.Json.JsonConvert.SerializeObject(equipmentLists);
+
 }
 @{
     var mode = Request["mode"];
-    int CID = 0;
-    int EID = 0;
-    int QT = 0;
-    if (mode != null)
-    {
-        CID = int.Parse(Request["cid"]);
-        EID = int.Parse(Request["eid"]);
-        QT = int.Parse(Request["qt"]);
-    }
+    
+      var  CID = Request["cid"];
+      var  EID = Request["eid"];
+      var  QT = Request["qt"];
+    
 
     var isUpdate = mode == "Update";
 
@@ -32,9 +30,31 @@
         $('#exampleFormControlInput2').val(cid);
         var qt = @Html.Raw(Json.Encode(QT));
         $('#input3').val(qt);
-
     });
+    var Eq_listArr = JSON.parse('@Html.Raw(jsArr)');
+    console.log(Eq_listArr);
 
+    function ShowEquipmentStock(cntrol) {
+      
+        var equipmentID = $(cntrol).val();
+        $.each(Eq_listArr, function (index, obj) {
+            if (obj.Equipmentid == parseInt(equipmentID)) {
+                $('#spnStockStatus').html("Available Stock:" + obj.Quantity)
+                $('#hdAvailableStock').val(obj.Quantity)
+            }
+        })    
+    }
+    function validateInput(control) {
+        if (parseInt($(control).val()) > parseInt($('#hdAvailableStock').val())) {
+            alert("value must be<=" + $('#hdAvailableStock').val())
+            $(control).val('')
+        }
+        else if (parseInt($(control).val()) < 0) {
+            alert("Must be positive")
+            $(control).val('')
+        }
+        
+    }
 </script>
 
 <h2 id="Titel">New Assigned Equipment</h2>
@@ -43,7 +63,7 @@
     <div class="card" ">
         <div class="card-body">
             <label for="exampleFormControlInput1" class="form-label" ">Equipment Name</label>
-            <select name="txtEquipmentID" class="form-control" id="exampleFormControlInput1" placeholder="EquipmentID">
+            <select name="txtEquipmentID" class="form-control" id="exampleFormControlInput1" placeholder="EquipmentID" onchange="ShowEquipmentStock(this)">
 
                 @{
                     foreach (var obj in equipmentLists)
@@ -54,6 +74,8 @@
                     }
                 }
             </select>
+            <span id="spnStockStatus"></span>
+            <input type="hidden" id="hdAvailableStock" />
             <br />
             <label for="exampleFormControlInput2" class="form-label" ">Customer Name</label>
             <select name="txtCustomerID" class="form-control" id="exampleFormControlInput2" placeholder="CustomerID">
@@ -70,7 +92,7 @@
             <br />
             <div class="mb-3">
                 <label for="input3" class="form-label">Quantity</label>
-                <input type="text" name="txtQuantity" id="input3" class="form-control" placeholder="Quantity">
+                <input type="text" name="txtQuantity" id="input3" class="form-control" placeholder="Quantity" onblur="validateInput(this)">
             </div>
 
             <input type="submit" id="btnSubmit" class="btn btn-primary" name="btnSubmit" value="@(isUpdate ? "Update" : "Save")" />
