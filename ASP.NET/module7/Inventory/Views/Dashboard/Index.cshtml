@@ -64,16 +64,19 @@
 
     // Dynamic Part
 
-    function UpdateEquipment(E_ID, E_Nm) {
+    function UpdateEquipment(cntrl) {
         ShowModel();
         $('#btnSubmit').val('Update');
         $('#choice').val('1');
-        $('#EquipmentID').val(parseInt(E_ID));
-        $('#EquipmentID').attr('onblur', '');
-        $('#EquipmentName').val(E_Nm);
-        $('#EquipmentName').attr('onblur', '');
-        
+
+        var targetRowId = $(cntrl).attr('id').split('_')[1];
+
+        $('#EquipmentID').val($("#hdEquipment_" + targetRowId).val()).attr('onblur', '');
+        $('#EquipmentName').val($('#spnEquipmentName_' + targetRowId).text()).attr('onblur', '');
+        $('#txtQuantity').val($("#spnQuantity_" + targetRowId).text());
+
     }
+
 
     function ShowModel() {
         $('#EquipmentID').val('');
@@ -105,7 +108,7 @@
             <input type="button" value="New" style="float:right" onclick="ShowModel()" />
         </div>
         <div style="max-height:400px; width:100%;overflow:auto">
-            <form action="@Url.Action("Index","Dashboard")" method="post">
+            <form action="@Url.Action("Index", "Dashboard")" method="post">
                 <table id="customers">
                     <tr>
                         <th></th>
@@ -120,19 +123,20 @@
                         //EquipmentList obj = new EquipmentList();
 
                         List<EquipmentList> list = (List<EquipmentList>)ViewBag.EquipmentList;
-
+                        int i = 1;
                         foreach (var item in list)
                         {
-                            <tr>
-                                <td><input type="hidden" name="EquipmentID" value="@item.Equipmentid" /></td>
-                                <td><input type="button" value="Update" onclick="UpdateEquipment('@item.Equipmentid','@item.EquipmentName')" /></td>
-                                <td><input type="submit" value="Delete" name="btnSubmit" /></td>
-                                <td>@item.EquipmentName</td>
-                                <td>@item.Quantity</td>
-                                <td>@item.EntryDate</td>
-                                <td>@item.EndDate</td>
-                            </tr>
 
+                            <tr id="tr_@i">
+                                <td><input type="hidden" name="EquipmentID" id="hdEquipment_@i" value="@item.Equipmentid" /></td>
+                                <td><input type="button" id="btn_@i" value="Update" onclick="UpdateEquipment(this)" /></td>
+                                <td><input type="submit" value="Delete" name="btnSubmit" /></td>
+                                <td><span id="spnEquipmentName_@i">@item.EquipmentName</span></td>
+                                <td><span id="spnQuantity_@i">@item.Quantity</span></td>
+                                <td><span id="spnEntryDate_@i">@item.EntryDate</span></td>
+                                <td><span id="spnEndDate_@i">@item.EndDate</span></td>
+                            </tr>
+                            i++;
                         }
                     }
 
@@ -146,7 +150,7 @@
     <div class="col col-sm-6">
         <div style="background-color: lightcoral; width: 100%; text-align: center; padding: 5px">
             Assigned History
-            <input type="button" value="New" style="float:right" onclick="window.location.href='@Url.Action("NewAssignedEquipment","Dashboard")'" />
+            <input type="button" value="New" style="float:right" onclick="window.location.href='@Url.Action("NewAssignedEquipment", "Dashboard")'" />
         </div>
         <div style="max-height:400px; width:100%;overflow:auto">
             @{
@@ -165,44 +169,49 @@
                                     EquipmentID = p.Field<int>("EquipmentID")
                                 }).ToList();
             }
-            <form action="@Url.Action("Index","Dashboard")" method="post">
-                <table id="customers1">
-                    <tr>
+            <table id="customers1">
+                <tr>
 
-                        <th>Update</th>
-                        <th>Delete</th>
-                        <th>Customer Name</th>
-                        <th>Customer Mobile</th>
-                        <th>Equipment Name</th>
-                        <th>Equipment Assignment</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                    <th>Customer Name</th>
+                    <th>Customer Mobile</th>
+                    <th>Equipment Name</th>
+                    <th>Equipment Assignment</th>
 
-                    </tr>
-                    @{
+                </tr>
+                @{
 
 
-                        foreach (var item in dataList)
+                    foreach (var item in dataList)
+                    {
+                        string DisabledStr = "";
+                        if (item.EquipmentAssignment == 0)
                         {
-                            string DisabledStr = "";
-                            if (item.EquipmentAssignment == 0)
-                            {
-                                DisabledStr = "disabled=disabled";
-                            }
-                            <tr>
-                                <td><input type="button" value="Update" onclick="UpdateAssignedCustomer(@item.CustomerID,@item.EquipmentID,@item.EquipmentAssignment)" @DisabledStr /></td>
-                                <td><input type="button" value="Delete"  @DisabledStr /></td>
-                                <td>@item.CustomerName</td>
-                                <td>@item.CustomerMob</td>
-                                <td>@item.EquipmentName</td>
-                                <td>@item.EquipmentAssignment</td>
-                            </tr>
-
+                            DisabledStr = "disabled=disabled";
                         }
-                    }
+                        <tr>
+                            <td>
+                                <button type="button" onclick="UpdateAssignedCustomer(@item.CustomerID, @item.EquipmentID, @item.EquipmentAssignment)" @DisabledStr>Update</button>
+                            </td>
+                            <td>
+                                <form action="@Url.Action("AssignedHistory", "Dashboard")" method="post">
+                                    <input type="hidden" name="CID" value="@item.CustomerID" />
+                                    <input type="hidden" name="EID" value="@item.EquipmentID" />
+                                    <input type="submit" name="btnSubmit" value="Delete" />
+                                </form>
+                            </td>
+                            <td>@item.CustomerName</td>
+                            <td>@item.CustomerMob</td>
+                            <td>@item.EquipmentName</td>
+                            <td>@item.EquipmentAssignment</td>
+                        </tr>
+                        }
+                    } 
+        </table>
 
 
-                </table>
-            </form>
-        </div>
+</div>
 
     </div>
 </div>

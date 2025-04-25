@@ -86,6 +86,15 @@ namespace Inventory.Controllers
 
             return View();
         }
+        
+
+        [HttpPost]
+        public ActionResult AssignedHistory(FormCollection formCollection,string CID,string EID)
+        {
+            EquipmentList obj = new EquipmentList();
+            obj.DeleteAssignedHistoty(formCollection);
+            return RedirectToAction("Index", "Dashboard");
+        }
 
     }
 }

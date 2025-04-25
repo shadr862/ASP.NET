@@ -6,16 +6,16 @@
 @{
     List<Customer> customerList = ViewBag.customerList;
     List<EquipmentList> equipmentLists = ViewBag.lstEquipment;
-    string jsArr= Newtonsoft.Json.JsonConvert.SerializeObject(equipmentLists);
+    string jsArr = Newtonsoft.Json.JsonConvert.SerializeObject(equipmentLists);
 
 }
 @{
     var mode = Request["mode"];
-    
-      var  CID = Request["cid"];
-      var  EID = Request["eid"];
-      var  QT = Request["qt"];
-    
+
+    var CID = Request["cid"];
+    var EID = Request["eid"];
+    var QT = Request["qt"];
+
 
     var isUpdate = mode == "Update";
 
@@ -30,6 +30,8 @@
         $('#exampleFormControlInput2').val(cid);
         var qt = @Html.Raw(Json.Encode(QT));
         $('#input3').val(qt);
+
+        ShowEquipmentStock($('#exampleFormControlInput1'));
     });
     var Eq_listArr = JSON.parse('@Html.Raw(jsArr)');
     console.log(Eq_listArr);
@@ -57,7 +59,16 @@
     }
 </script>
 
-<h2 id="Titel">New Assigned Equipment</h2>
+@{ 
+    if(mode== "Update")
+    {
+        <h2>Update Assigned History</h2>
+    }
+    else
+    {
+        <h2>New Assigned History</h2>
+    }
+}
 
 <form method="post" action="@Url.Action("NewAssignedEquipment","Dashboard")">
     <div class="card" ">
