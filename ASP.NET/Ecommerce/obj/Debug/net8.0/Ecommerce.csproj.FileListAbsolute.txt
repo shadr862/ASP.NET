@@ -33,3 +33,4 @@ F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\refint\Ecommerce.dll
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.pdb
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.genruntimeconfig.cache
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\ref\Ecommerce.dll
+F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\libman.json

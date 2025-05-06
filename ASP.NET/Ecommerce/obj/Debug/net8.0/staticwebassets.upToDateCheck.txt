@@ -49,6 +49,12 @@ wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\jquery.js
+wwwroot\lib\jquery\jquery.min.js
+wwwroot\lib\jquery\jquery.min.map
+wwwroot\lib\jquery\jquery.slim.js
+wwwroot\lib\jquery\jquery.slim.min.js
+wwwroot\lib\jquery\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\lib\jquery-validation\dist\additional-methods.js
 wwwroot\lib\jquery-validation\dist\additional-methods.min.js

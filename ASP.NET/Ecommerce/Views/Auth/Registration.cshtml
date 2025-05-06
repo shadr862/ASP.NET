@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #6a11cb, #2575fc); /* Background gradient */
+            color: #fff;
+        }
+
+        .error {
+            color: red;
+            font-size: 0.875em;
+        }
+
+        .form-label {
+            font-weight: normal; /* Make labels softer */
+            color: #6c757d; /* Softer gray for labels */
+        }
+
+        .card {
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.9); /* Lighter background */
+        }
+
+        .card-body {
+            background-color: #f8f9fa;
+            border-radius: 15px;
+        }
+
+        .btn-primary {
+            background-color: #2575fc;
+            border-color: #2575fc;
+        }
+
+            .btn-primary:hover {
+                background-color: #1a5dcb;
+                border-color: #1a5dcb;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a636a;
+                border-color: #5a636a;
+            }
+
+        .form-control {
+            background-color: #e9ecef;
+            border-color: #ced4da;
+        }
+
+            .form-control:focus {
+                border-color: #2575fc;
+                box-shadow: 0 0 0 0.25rem rgba(37, 117, 252, 0.25);
+            }
+
+        .is-invalid {
+            border-color: #dc3545;
+        }
+
+        h3 {
+            text-align: center;
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .gender-group {
+            display: flex;
+            align-items: center;
+        }
+
+            .gender-group .form-check-inline {
+                margin-right: 10px;
+            }
+
+        .form-outline select {
+            background-color: #e9ecef;
+            border-color: #ced4da;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container py-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-lg-9 col-xl-7">
+                <div class="card shadow-2-strong card-registration">
+                    <div class="card-body p-4 p-md-5">
+                        <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+                        <form id="registrationForm" method="post" action="@Url.Action("Registration", "Auth")" novalidate>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <input type="text" id="firstName" class="form-control form-control-lg" name="firstName" required />
+                                        <label class="form-label" for="firstName">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <input type="text" id="lastName" class="form-control form-control-lg" name="lastName" required />
+                                        <label class="form-label" for="lastName">Last Name</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <input type="email" id="email" class="form-control form-control-lg" name="email" required />
+                                        <label class="form-label" for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <input type="password" id="password" class="form-control form-control-lg" name="password" required minlength="6" />
+                                        <label class="form-label" for="password">Password</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <input type="password" id="confirmPassword" class="form-control form-control-lg" name="confirmPassword" required />
+                                        <label class="form-label" for="confirmPassword">Confirm Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <select id="role" name="role" class="form-select form-select-lg" required>
+                                            <option value="">-- Select Role --</option>
+                                            <option value="Admin">Admin</option>
+                                            <option value="Manager">Manager</option>
+                                            <option value="Employee">Employee</option>
+                                        </select>
+                                        <label class="form-label" for="role">Role</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 mb-4">
+                                    <h6 class="mb-2 pb-1">Gender: </h6>
+                                    <div class="gender-group">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gender" id="femaleGender" value="Female" checked />
+                                            <label class="form-check-label" for="femaleGender">Female</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gender" id="maleGender" value="Male" />
+                                            <label class="form-check-label" for="maleGender">Male</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gender" id="otherGender" value="Other" />
+                                            <label class="form-check-label" for="otherGender">Other</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 pt-2">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                <button type="button" class="btn btn-secondary btn-lg ms-3" onclick="window.location.reload();">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery & jQuery Validate (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Custom validation method to match passwords
+            $.validator.addMethod("matchPassword", function (value, element) {
+                return value === $("#password").val();
+            }, "Passwords do not match.");
+
+            // Apply validation
+            $("#registrationForm").validate({
+                rules: {
+                    firstName: "required",
+                    lastName: "required",
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    password: {
+                        required: true,
+                        minlength: 6
+                    },
+                    confirmPassword: {
+                        required: true,
+                        matchPassword: true
+                    },
+                    gender: "required",
+                    role: "required"
+                },
+                messages: {
+                    firstName: "Please enter your first name.",
+                    lastName: "Please enter your last name.",
+                    email: {
+                        required: "Please enter your email.",
+                        email: "Please enter a valid email address."
+                    },
+                    password: {
+                        required: "Please enter a password.",
+                        minlength: "Password must be at least 6 characters long."
+                    },
+                    confirmPassword: {
+                        required: "Please confirm your password."
+                    },
+                    gender: "Please select your gender.",
+                    role: "Please select a role."
+                },
+                errorClass: "error",
+                errorElement: "div",
+                highlight: function (element) {
+                    $(element).addClass("is-invalid");
+                },
+                unhighlight: function (element) {
+                    $(element).removeClass("is-invalid");
+                },
+                submitHandler: function (form) {
+                    form.submit();
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+

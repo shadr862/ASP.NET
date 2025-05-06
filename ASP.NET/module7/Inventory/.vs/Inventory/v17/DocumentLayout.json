@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\module7\\inventory\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:models\\equipmentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\module7\\inventory\\views\\dashboard\\newassignedequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|F:\\OstadASP.NET\\ASP.NET\\module7\\Inventory\\views\\dashboard\\newassignedequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:views\\dashboard\\newassignedequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Views\\Dashboard\\EquipmentEntry.cshtml",
               "ViewState": "AgIAAD8AAAAAAAAAAAAhwEsAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T06:36:45.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T06:36:45.691Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Views\\Dashboard\\NewAssignedEquipment.cshtml",
               "ViewState": "AgIAAEYAAAAAAAAAAAAhwD4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T04:53:13.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T04:53:13.108Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Controllers\\DashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T06:32:16.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T06:32:16.812Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Models\\EquipmentList.cs",
               "ViewState": "AgIAAMUAAAAAAAAAAAAIwM4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T04:02:06.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T04:02:06.832Z"
             }
           ]
         }
