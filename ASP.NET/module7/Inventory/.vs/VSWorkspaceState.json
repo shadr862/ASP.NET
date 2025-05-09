@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Content"
+    "\\Content",
+    "\\Views",
+    "\\Views\\Dashboard"
   ],
-  "SelectedNode": "\\Content\\Site.css",
+  "SelectedNode": "\\Web.config",
   "PreviewInSolutionExplorer": false
 }

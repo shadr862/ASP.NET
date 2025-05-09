@@ -1,5 +1,6 @@
 F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\appsettings.Development.json
 F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\appsettings.json
+F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\libman.json
 F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\Ecommerce.staticwebassets.runtime.json
 F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\Ecommerce.staticwebassets.endpoints.json
 F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\Ecommerce.exe
@@ -7,6 +8,13 @@ F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\Ecommerce.deps.json
 F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\Ecommerce.runtimeconfig.json
 F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\Ecommerce.dll
 F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\Ecommerce.pdb
+F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\System.Data.SqlClient.dll
+F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.csproj.AssemblyReference.cache
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.GeneratedMSBuildEditorConfig.editorconfig
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.AssemblyInfoInputs.cache
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.AssemblyInfo.cs
@@ -28,9 +36,9 @@ F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\staticwebassets\msbuild.build
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Ecommerce.props
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\staticwebassets.pack.json
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.csproj.Up2Date
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.dll
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\refint\Ecommerce.dll
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.pdb
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\Ecommerce.genruntimeconfig.cache
 F:\OstadASP.NET\ASP.NET\Ecommerce\obj\Debug\net8.0\ref\Ecommerce.dll
-F:\OstadASP.NET\ASP.NET\Ecommerce\bin\Debug\net8.0\libman.json

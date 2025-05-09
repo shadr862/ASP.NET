@@ -1,27 +1,27 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Register services
 builder.Services.AddControllersWithViews();
+
+// Register session services with configuration
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);  // Set session timeout duration as needed
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
+// Configure the HTTP request pipeline
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseSession(); // Add this before UseRouting()
 app.UseRouting();
 
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Auth}/{action=Login}/{id?}");
 
 app.Run();
+

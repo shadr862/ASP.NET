@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|f:\\ostadasp.net\\asp.net\\ecommerce\\views\\auth\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|solutionrelative:views\\auth\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|f:\\ostadasp.net\\asp.net\\ecommerce\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|f:\\ostadasp.net\\asp.net\\ecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|f:\\ostadasp.net\\asp.net\\ecommerce\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|f:\\ostadasp.net\\asp.net\\ecommerce\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69197C67-ADEB-429A-BA9E-8724E5058BBF}|Ecommerce.csproj|solutionrelative:views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Registration.cshtml",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Views\\Auth\\Registration.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auth\\Registration.cshtml",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Views\\Auth\\Registration.cshtml",
-              "RelativeToolTip": "Views\\Auth\\Registration.cshtml",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAkwF4AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Views\\Auth\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\ForgotPassword.cshtml",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Views\\Auth\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Views\\Auth\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAIwJMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T15:45:56.304Z",
+              "WhenOpened": "2025-05-08T15:02:46.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:57:14.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvxAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T15:42:53.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T15:34:58.894Z",
               "EditorCaption": ""
             }
           ]

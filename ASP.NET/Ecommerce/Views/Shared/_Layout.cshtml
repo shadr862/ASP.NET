@@ -7,16 +7,14 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Ecommerce.styles.css" asp-append-version="true" />
+  
 
-    <script>
-                if (!window.location.href.includes("Registration")) {
-            window.location.href = '@Url.Action("Registration", "Auth")';
-        }
+    
+    
 
-    </script>
 </head>
 <body>
-    @* <header>
+    <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Ecommerce</a>
@@ -26,17 +24,33 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
+                        @* <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                        </li> *@
                     </ul>
+                    <div class="navbar-nav ms-auto">
+                        @if (Context.Session.GetString("FirstName") != null)
+                        {
+                            <span class="nav-item nav-link text-primary">Welcome, @Context.Session.GetString("FirstName")</span>
+                            <a class="nav-item nav-link text-danger" asp-controller="Auth" asp-action="Logout">Logout</a>
+                        }
+                        else
+                        {
+                            <a class="nav-item nav-link text-primary" asp-controller="Auth" asp-action="Login">Login</a>
+                        }
+                    </div>
+
+
+                    </div>
+
+
                 </div>
             </div>
         </nav>
-    </header> *@
+    </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
