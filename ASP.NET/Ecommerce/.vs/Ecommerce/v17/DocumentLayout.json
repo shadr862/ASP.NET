@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Views\\Auth\\ForgotPassword.cshtml",
               "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Ecommerce\\Views\\Auth\\ForgotPassword.cshtml",
               "RelativeToolTip": "Views\\Auth\\ForgotPassword.cshtml",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAIwJMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAIwIQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-08T15:02:46.771Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:57:14.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T14:57:14.432Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAwwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T15:42:53.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T15:42:53.533Z"
             }
           ]
         }
