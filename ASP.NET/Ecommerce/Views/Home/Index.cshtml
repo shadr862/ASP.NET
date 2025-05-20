@@ -2,7 +2,46 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<script>
+    //when domContent loaded will call,then execute api
+    $(document).ready(function(){
+        //we use callback fuction for not moving next line execution
+        $.get('https://dummyjson.com/products/1',function(response){
+           
+            // $.each(reponse.images,function(index,obj))
+            // {
+            //     if(index==0)
+            //     {
+            //         $('#imgProduct').attr('src',obj)
+            //     }
+            // }
+            $('#imgProduct').attr('src',response.images[0])
+            $('#pdTitle').html(response.title)
+            $('#pdDesc').html(response.description)
+            $('#pdPrice').html(response.price)
+
+        })
+    })
+</script>
+
+@*
+    input->val()
+    p,h,div,...->html()
+    span->html()/text() 
+*@
+
+
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img id="imgProduct"src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title" id="pdTitle">Card title</h5>
+                <p class="card-text" id="pdDesc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary" id="pdPrice">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
 </div>
