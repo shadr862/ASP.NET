@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\Assignment\\QuestionAndAnswer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{640438C1-0829-4304-95EF-A6ED6D37988A}|QuestionAndAnswer.csproj|f:\\ostadasp.net\\asp.net\\assignment\\questionandanswer\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640438C1-0829-4304-95EF-A6ED6D37988A}|QuestionAndAnswer.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640438C1-0829-4304-95EF-A6ED6D37988A}|QuestionAndAnswer.csproj|f:\\ostadasp.net\\asp.net\\assignment\\questionandanswer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{640438C1-0829-4304-95EF-A6ED6D37988A}|QuestionAndAnswer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Assignment\\QuestionAndAnswer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Assignment\\QuestionAndAnswer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T16:14:27.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Assignment\\QuestionAndAnswer\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Assignment\\QuestionAndAnswer\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T16:13:55.528Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
