@@ -1,0 +1,70 @@
+*************for cross-origin requests*************
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "Policy_1",
+        policy =>
+        {
+            policy.WithOrigins("http://example.com",
+                                "http://www.contoso.com", "http://localhost:5299");
+        });
+    options.AddPolicy(name: "Policy_2",
+        policy =>
+        {
+            policy.WithOrigins("*")
+                                .AllowAnyHeader()
+                                .AllowAnyMethod();
+        });
+});
+
+
+
+-------------at end:-----------
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseCors();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();
+
+
+***********for angular only*************
+
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      builder =>
+                      {
+                          builder.WithOrigins("http://localhost:4200")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .SetIsOriginAllowedToAllowWildcardSubdomains();
+                      });
+});
+
+
+-------------end:------------------
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseCors(MyAllowSpecificOrigins);
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
+
+
+

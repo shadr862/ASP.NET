@@ -1,0 +1,7 @@
+
+    "Jwt": {
+        "Key": "0e5f64d2-7139-4bcf-bb61-f006455b78ad",
+        "Issuer": "JwtIssuer",
+        "Audience": "JwtAudience",
+        "Subject": "JwtSubject"
+    }

@@ -1,0 +1,16 @@
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+//Use the CORS policy
+app.UseCors();
+
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+
+//middleware for exception handling
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+
+app.Run();
