@@ -15,26 +15,46 @@ namespace ClassroomApi.Data
         public DbSet<QuizSubmission> QuizSubmissions { get; set; }
         public DbSet<Assignment> Assignments { get; set; }
         public DbSet<AssignmentSubmission> AssignmentSubmissions { get; set; }
-
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<Announcement> Announcements { get; set; }
+        public DbSet<ClassroomDetail>  ClassroomDetails{ get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Prevent multiple cascade paths by using Restrict
+            // Prevent cascade delete issues with Enrollments and Students
             modelBuilder.Entity<Enrollment>()
                 .HasOne(e => e.Student)
                 .WithMany(u => u.Enrollments)
                 .HasForeignKey(e => e.StudentId)
-                .OnDelete(DeleteBehavior.Restrict); // ✅ Fixes SQL Server issue
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<AssignmentSubmission>()
+                .HasOne(a => a.Student)
+                .WithMany()
+                .HasForeignKey(a => a.StudentId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Comment>()
+                .HasOne(c => c.User)
+                .WithMany(u => u.Comments)
+                .HasForeignKey(c => c.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<QuizSubmission>()
+                .HasOne(q => q.Student)
+                .WithMany()
+                .HasForeignKey(q => q.StudentId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Classroom>()
-                .HasOne(c => c.Teacher)
-                .WithMany() // Assuming Teacher doesn't have navigation back to classrooms
-                .HasForeignKey(c => c.TeacherId)
-                .OnDelete(DeleteBehavior.Restrict); // ✅ Also restrict cascade here
+                .HasIndex(c => c.AccessCode)
+                .IsUnique();
+
+
+
 
             base.OnModelCreating(modelBuilder);
         }
     }
 }
-

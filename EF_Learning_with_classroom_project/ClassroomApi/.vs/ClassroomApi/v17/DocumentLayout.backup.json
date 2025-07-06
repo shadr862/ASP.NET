@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\EF_Learning\\ClassroomApi\\",
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|f:\\ef_learning\\classroomapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|f:\\ostadasp.net\\ef_learning_with_classroom_project\\classroomapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|solutionrelative:controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|f:\\ef_learning\\classroomapi\\modeldto\\createupdatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|solutionrelative:modeldto\\createupdatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|f:\\ostadasp.net\\ef_learning_with_classroom_project\\classroomapi\\model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|solutionrelative:model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|f:\\ef_learning\\classroomapi\\model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|solutionrelative:model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|f:\\ostadasp.net\\ef_learning_with_classroom_project\\classroomapi\\modeldto\\createupdatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|solutionrelative:modeldto\\createupdatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CommentController.cs",
-              "DocumentMoniker": "F:\\EF_Learning\\ClassroomApi\\Controllers\\CommentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CommentController.cs",
-              "ToolTip": "F:\\EF_Learning\\ClassroomApi\\Controllers\\CommentController.cs",
-              "RelativeToolTip": "Controllers\\CommentController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAiwG8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CreateUpdateCommentDto.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\ModelDto\\CreateUpdateCommentDto.cs",
+              "RelativeDocumentMoniker": "ModelDto\\CreateUpdateCommentDto.cs",
+              "ToolTip": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\ModelDto\\CreateUpdateCommentDto.cs",
+              "RelativeToolTip": "ModelDto\\CreateUpdateCommentDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA0wAkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:24:28.497Z",
+              "WhenOpened": "2025-07-05T06:49:06.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateUpdateCommentDto.cs",
-              "DocumentMoniker": "F:\\EF_Learning\\ClassroomApi\\ModelDto\\CreateUpdateCommentDto.cs",
-              "RelativeDocumentMoniker": "ModelDto\\CreateUpdateCommentDto.cs",
-              "ToolTip": "F:\\EF_Learning\\ClassroomApi\\ModelDto\\CreateUpdateCommentDto.cs",
-              "RelativeToolTip": "ModelDto\\CreateUpdateCommentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Title": "Comment.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Model\\Comment.cs",
+              "RelativeDocumentMoniker": "Model\\Comment.cs",
+              "ToolTip": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Model\\Comment.cs",
+              "RelativeToolTip": "Model\\Comment.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:22:56.909Z",
+              "WhenOpened": "2025-07-05T05:32:39.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "F:\\EF_Learning\\ClassroomApi\\Model\\Comment.cs",
-              "RelativeDocumentMoniker": "Model\\Comment.cs",
-              "ToolTip": "F:\\EF_Learning\\ClassroomApi\\Model\\Comment.cs",
-              "RelativeToolTip": "Model\\Comment.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA/wAwAAABCAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommentController.cs",
+              "ToolTip": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Controllers\\CommentController.cs*",
+              "RelativeToolTip": "Controllers\\CommentController.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAWwDYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:22:22.484Z",
+              "WhenOpened": "2025-07-05T05:31:51.482Z",
               "EditorCaption": ""
             }
           ]

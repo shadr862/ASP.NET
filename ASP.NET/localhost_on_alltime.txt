@@ -1,0 +1,8 @@
+1.Turn window feature on or Off
+2.add tick mark in internet information service->also in sub-folder
+3.add tick mark in internet information service Hostable web core->also in sub-folder
+4.ok press
+5.download required file
+6.type host in browser
+
+again check:c drive->inetpub->all fine

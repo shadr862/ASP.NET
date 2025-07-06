@@ -2,11 +2,14 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ClassroomApi.ModelDto;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Cors;
 
 namespace ClassroomApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("Policy_2")]
     public class QuizController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -17,16 +20,16 @@ namespace ClassroomApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetQuizzes()
+        public async Task<IActionResult> GetQuizzes()
         {
-            var quizzes = _context.Quizzes.ToList();
+            var quizzes = await _context.Quizzes.ToListAsync();
             return Ok(quizzes);
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetQuiz(Guid id)
+        public async Task<IActionResult> GetQuiz(Guid id)
         {
-            var quiz = _context.Quizzes.Find(id);
+            var quiz = await _context.Quizzes.FindAsync(id);
             if (quiz == null)
             {
                 return NotFound();
@@ -35,65 +38,80 @@ namespace ClassroomApi.Controllers
         }
 
         [HttpGet("classId/{id}")]
-        public IActionResult GetQuizByQuizId(Guid Id)
+        public async Task<IActionResult> GetQuizzesByClassroomId(Guid id)
         {
-            var quiz = _context.Quizzes.Where(q=>q.ClassroomId== Id).ToList();
-            if (quiz == null)
+            var quizzes = await _context.Quizzes
+                .Where(q => q.ClassroomId == id)
+                .ToListAsync();
+
+            if (quizzes == null || !quizzes.Any())
             {
-                return NotFound();
+                return NotFound($"No quizzes found for ClassroomId: {id}");
             }
-            return Ok(quiz);
+
+            return Ok(quizzes);
         }
 
         [HttpPost]
-        public IActionResult CreateQuiz(CreateUpdateQuizDto quizDto)
+        public async Task<IActionResult> CreateQuiz([FromBody] CreateUpdateQuizDto quizDto)
         {
             if (quizDto == null)
             {
                 return BadRequest("Quiz data is null.");
             }
+
             var quiz = new Model.Quiz
             {
                 Title = quizDto.Title,
+                PostedOn = DateTime.UtcNow,
                 Deadline = quizDto.Deadline,
                 ClassroomId = quizDto.ClassroomId
             };
+
             _context.Quizzes.Add(quiz);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetQuiz), new { id = quiz.Id }, quiz);
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateQuiz(Guid id, CreateUpdateQuizDto quizDto)
+        public async Task<IActionResult> UpdateQuiz(Guid id, [FromBody] CreateUpdateQuizDto quizDto)
         {
             if (quizDto == null)
             {
                 return BadRequest("Quiz data is null.");
             }
-            var quiz = _context.Quizzes.Find(id);
+
+            var quiz = await _context.Quizzes.FindAsync(id);
             if (quiz == null)
             {
                 return NotFound();
             }
+
             quiz.Title = quizDto.Title;
             quiz.Deadline = quizDto.Deadline;
-            quiz.ClassroomId = quizDto.ClassroomId;
+   
+
             _context.Quizzes.Update(quiz);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
+
             return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteQuiz(Guid id)
+        public async Task<IActionResult> DeleteQuiz(Guid id)
         {
-            var quiz = _context.Quizzes.Find(id);
+            var quiz = await _context.Quizzes.FindAsync(id);
             if (quiz == null)
             {
                 return NotFound();
             }
+
             _context.Quizzes.Remove(quiz);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
+
             return NoContent();
         }
     }
 }
+

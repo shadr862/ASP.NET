@@ -2,11 +2,13 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ClassroomApi.ModelDto;
+using Microsoft.AspNetCore.Cors;
 
 namespace ClassroomApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("Policy_2")]
     public class QuizQuestionController : ControllerBase
     {
         private readonly AppDbContext _context;

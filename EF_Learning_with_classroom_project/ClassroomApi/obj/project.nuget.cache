@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "llz4WoKKct8=",
+  "dgSpecHash": "sTuS3tcR8Jg=",
   "success": true,
-  "projectFilePath": "F:\\EF_Learning\\ClassroomApi\\ClassroomApi.csproj",
+  "projectFilePath": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\ClassroomApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

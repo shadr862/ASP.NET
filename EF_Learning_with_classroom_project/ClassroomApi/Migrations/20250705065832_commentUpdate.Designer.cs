@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClassroomApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250627051544_addComment")]
-    partial class addComment
+    [Migration("20250705065832_commentUpdate")]
+    partial class commentUpdate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,33 @@ namespace ClassroomApi.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("ClassroomApi.Model.Announcement", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("ClassroomId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("PostedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClassroomId");
+
+                    b.ToTable("Announcements");
+                });
 
             modelBuilder.Entity("ClassroomApi.Model.Assignment", b =>
                 {
@@ -39,6 +66,9 @@ namespace ClassroomApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DueDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("PostedOn")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Title")
@@ -86,23 +116,66 @@ namespace ClassroomApi.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("AccessCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ClassName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("TeacherId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
-                    b.Property<Guid?>("UserId")
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TeacherId");
+                    b.HasIndex("AccessCode")
+                        .IsUnique();
 
                     b.HasIndex("UserId");
 
                     b.ToTable("Classrooms");
+                });
+
+            modelBuilder.Entity("ClassroomApi.Model.ClassroomDetail", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("ClassroomId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("Deadline")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DueDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("PostedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ClassroomDetails");
                 });
 
             modelBuilder.Entity("ClassroomApi.Model.Comment", b =>
@@ -111,7 +184,10 @@ namespace ClassroomApi.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("AssignmentId")
+                    b.Property<Guid?>("AnnouncementId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("AssignmentId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Content")
@@ -125,14 +201,21 @@ namespace ClassroomApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("userId")
+                    b.Property<Guid?>("ParentId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AnnouncementId");
+
                     b.HasIndex("AssignmentId");
 
-                    b.HasIndex("userId");
+                    b.HasIndex("ParentId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Comments");
                 });
@@ -168,6 +251,9 @@ namespace ClassroomApi.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("Deadline")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("PostedOn")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Title")
@@ -276,6 +362,17 @@ namespace ClassroomApi.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("ClassroomApi.Model.Announcement", b =>
+                {
+                    b.HasOne("ClassroomApi.Model.Classroom", "Classroom")
+                        .WithMany()
+                        .HasForeignKey("ClassroomId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Classroom");
+                });
+
             modelBuilder.Entity("ClassroomApi.Model.Assignment", b =>
                 {
                     b.HasOne("ClassroomApi.Model.Classroom", "Classroom")
@@ -298,7 +395,7 @@ namespace ClassroomApi.Migrations
                     b.HasOne("ClassroomApi.Model.User", "Student")
                         .WithMany()
                         .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Assignment");
@@ -308,34 +405,36 @@ namespace ClassroomApi.Migrations
 
             modelBuilder.Entity("ClassroomApi.Model.Classroom", b =>
                 {
-                    b.HasOne("ClassroomApi.Model.User", "Teacher")
-                        .WithMany()
-                        .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                    b.HasOne("ClassroomApi.Model.User", "User")
+                        .WithMany("Classrooms")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ClassroomApi.Model.User", null)
-                        .WithMany("Classrooms")
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("Teacher");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("ClassroomApi.Model.Comment", b =>
                 {
-                    b.HasOne("ClassroomApi.Model.Assignment", "Assignment")
+                    b.HasOne("ClassroomApi.Model.Announcement", null)
                         .WithMany("Comments")
-                        .HasForeignKey("AssignmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AnnouncementId");
+
+                    b.HasOne("ClassroomApi.Model.Assignment", null)
+                        .WithMany("Comments")
+                        .HasForeignKey("AssignmentId");
+
+                    b.HasOne("ClassroomApi.Model.Comment", "Parent")
+                        .WithMany("Replies")
+                        .HasForeignKey("ParentId");
 
                     b.HasOne("ClassroomApi.Model.User", "User")
                         .WithMany("Comments")
-                        .HasForeignKey("userId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Assignment");
+                    b.Navigation("Parent");
 
                     b.Navigation("User");
                 });
@@ -392,12 +491,17 @@ namespace ClassroomApi.Migrations
                     b.HasOne("ClassroomApi.Model.User", "Student")
                         .WithMany()
                         .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Quiz");
 
                     b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("ClassroomApi.Model.Announcement", b =>
+                {
+                    b.Navigation("Comments");
                 });
 
             modelBuilder.Entity("ClassroomApi.Model.Assignment", b =>
@@ -412,6 +516,11 @@ namespace ClassroomApi.Migrations
                     b.Navigation("Enrollments");
 
                     b.Navigation("Quizzes");
+                });
+
+            modelBuilder.Entity("ClassroomApi.Model.Comment", b =>
+                {
+                    b.Navigation("Replies");
                 });
 
             modelBuilder.Entity("ClassroomApi.Model.Quiz", b =>

@@ -2,11 +2,13 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ClassroomApi.Model;
+using Microsoft.AspNetCore.Cors;
 
 namespace ClassroomApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("Policy_2")]
     public class QuizSubmissionController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -34,6 +36,15 @@ namespace ClassroomApi.Controllers
             return Ok(submission);
         }
 
+        [HttpGet("student/{studentId}/quiz/{quizId}")]
+        public IActionResult GetSubmissionsByStudentId(Guid studentId,Guid quizId)
+        {
+            var submissions = _context.QuizSubmissions
+                .Where(s => s.StudentId == studentId && s.QuizId==quizId)
+                .ToList();
+            return Ok(submissions);
+        }
+
         [HttpGet("student/{studentId}")]
         public IActionResult GetSubmissionsByStudentId(Guid studentId)
         {
@@ -42,6 +53,32 @@ namespace ClassroomApi.Controllers
                 .ToList();
             return Ok(submissions);
         }
+        [HttpGet("quiz/{quizId}/submissions-with-user")]
+        public IActionResult GetSubmissionsWithUserByQuizId(Guid quizId)
+        {
+            var submissions = _context.QuizSubmissions
+                .Where(q => q.QuizId == quizId)
+                .Select(q => new
+                {
+                    SubmissionId = q.Id,
+                    QuizId = q.QuizId,
+                    StudentId = q.StudentId,
+                    Score = q.Score,
+                    AnswersJson = q.AnswersJson,
+                    Student = new
+                    {
+                        q.Student.Id,
+                        q.Student.FullName,
+                        q.Student.Email
+                    }
+                })
+                .ToList();
+
+            return Ok(submissions);
+        }
+
+
+
 
         [HttpPost]
         public IActionResult CreateSubmission([FromBody] ModelDto.CreateUpdateQuizSubmissionDto submissionDto)

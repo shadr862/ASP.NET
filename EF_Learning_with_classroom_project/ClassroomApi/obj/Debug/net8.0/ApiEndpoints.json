@@ -1,5 +1,100 @@
 [
   {
+    "ContainingType": "AnnouncementsController",
+    "Method": "GetAnnouncements",
+    "RelativePath": "api/announcements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnnouncementsController",
+    "Method": "CreateAnnouncement",
+    "RelativePath": "api/announcements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "announcement",
+        "Type": "ClassroomApi.ModelDto.CreateUpdateAnnouncementDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnnouncementsController",
+    "Method": "GetAnnouncement",
+    "RelativePath": "api/announcements/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnnouncementsController",
+    "Method": "UpdateAnnouncement",
+    "RelativePath": "api/announcements/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "announcement",
+        "Type": "ClassroomApi.ModelDto.CreateUpdateAnnouncementDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnnouncementsController",
+    "Method": "DeleteAnnouncement",
+    "RelativePath": "api/announcements/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnnouncementsController",
+    "Method": "GetAnnouncementsByClassroomId",
+    "RelativePath": "api/announcements/classId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ClassroomApi.Controllers.AssignmentController",
     "Method": "GetAssignments",
     "RelativePath": "api/Assignment",
@@ -18,7 +113,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "assignment",
+        "Name": "dto",
         "Type": "ClassroomApi.ModelDto.CreateUpdateAssignmentDto",
         "IsRequired": true
       }
@@ -55,7 +150,7 @@
         "IsRequired": true
       },
       {
-        "Name": "assignmentDto",
+        "Name": "dto",
         "Type": "ClassroomApi.ModelDto.CreateUpdateAssignmentDto",
         "IsRequired": true
       }
@@ -81,13 +176,13 @@
   {
     "ContainingType": "ClassroomApi.Controllers.AssignmentController",
     "Method": "GetAssignmentsByClassroom",
-    "RelativePath": "api/Assignment/classroom/{classroomId}",
+    "RelativePath": "api/Assignment/classId/{Id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "classroomId",
+        "Name": "Id",
         "Type": "System.Guid",
         "IsRequired": true
       }
@@ -106,22 +201,6 @@
   },
   {
     "ContainingType": "ClassroomApi.Controllers.AssignmentSubmissionController",
-    "Method": "CreateSubmission",
-    "RelativePath": "api/AssignmentSubmission",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "submissionDto",
-        "Type": "ClassroomApi.ModelDto.CreateUpdateAssignmentSubmissionDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ClassroomApi.Controllers.AssignmentSubmissionController",
     "Method": "GetSubmissionById",
     "RelativePath": "api/AssignmentSubmission/{id}",
     "HttpMethod": "GET",
@@ -131,27 +210,6 @@
       {
         "Name": "id",
         "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ClassroomApi.Controllers.AssignmentSubmissionController",
-    "Method": "UpdateSubmission",
-    "RelativePath": "api/AssignmentSubmission/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "submissionDto",
-        "Type": "ClassroomApi.ModelDto.CreateUpdateAssignmentSubmissionDto",
         "IsRequired": true
       }
     ],
@@ -175,8 +233,45 @@
   },
   {
     "ContainingType": "ClassroomApi.Controllers.AssignmentSubmissionController",
-    "Method": "GetSubmissionByAssignmentAndStudent",
-    "RelativePath": "api/AssignmentSubmission/assignment/{assignmentId}/{studentId}",
+    "Method": "UpdateGrade",
+    "RelativePath": "api/AssignmentSubmission/{id}/grade",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "gradeDto",
+        "Type": "ClassroomApi.ModelDto.UpdateAssignmentSubmissionGradeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.AssignmentSubmissionController",
+    "Method": "GetSubmissionsWithUserByAssignmentId",
+    "RelativePath": "api/AssignmentSubmission/assignment/{assignmentId}/submissions-with-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignmentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.AssignmentSubmissionController",
+    "Method": "GetSubmissionFileByAssignmentAndStudent",
+    "RelativePath": "api/AssignmentSubmission/file/{assignmentId}/{studentId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -189,6 +284,22 @@
       {
         "Name": "studentId",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.AssignmentSubmissionController",
+    "Method": "CreateSubmissionJson",
+    "RelativePath": "api/AssignmentSubmission/json",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ClassroomApi.ModelDto.CreateUpdateAssignmentSubmissionDto",
         "IsRequired": true
       }
     ],
@@ -229,8 +340,40 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "classroomDto",
+        "Name": "dto",
         "Type": "ClassroomApi.ModelDto.CreateUpdateClassroom",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomDetailsController",
+    "Method": "CreateDetail",
+    "RelativePath": "api/classroom-details",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "ClassroomApi.ModelDto.CreateUpdateClassroomDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomDetailsController",
+    "Method": "GetDetailsByClassroom",
+    "RelativePath": "api/classroom-details/{classroomId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classroomId",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -266,7 +409,7 @@
         "IsRequired": true
       },
       {
-        "Name": "classroomDto",
+        "Name": "dto",
         "Type": "ClassroomApi.ModelDto.CreateUpdateClassroom",
         "IsRequired": true
       }
@@ -386,19 +529,30 @@
   },
   {
     "ContainingType": "ClassroomApi.Controllers.CommentController",
-    "Method": "GetCommentsByAssignmentAndUser",
-    "RelativePath": "api/Comment/comment/{assignmentId}/{userId}",
+    "Method": "GetCommentsByAnnoucementId",
+    "RelativePath": "api/Comment/announcement/{annoucementId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annoucementId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.CommentController",
+    "Method": "GetCommentsByAssignmentId",
+    "RelativePath": "api/Comment/assignment/{assignmentId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "assignmentId",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "userId",
         "Type": "System.Guid",
         "IsRequired": true
       }
@@ -449,20 +603,15 @@
   },
   {
     "ContainingType": "ClassroomApi.Controllers.EnrollmentController",
-    "Method": "Put",
-    "RelativePath": "api/Enrollment/{id}",
-    "HttpMethod": "PUT",
+    "Method": "Delete",
+    "RelativePath": "api/Enrollment/by-id/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "enrollmentDto",
-        "Type": "ClassroomApi.ModelDto.CreateUpdateEnrollmentDto",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -470,16 +619,74 @@
   },
   {
     "ContainingType": "ClassroomApi.Controllers.EnrollmentController",
-    "Method": "Delete",
-    "RelativePath": "api/Enrollment/{id}",
+    "Method": "JoinClass",
+    "RelativePath": "api/Enrollment/join/{accessCode}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accessCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.EnrollmentController",
+    "Method": "GetClassesByStudent",
+    "RelativePath": "api/Enrollment/student/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.EnrollmentController",
+    "Method": "GetEnrolledStudents",
+    "RelativePath": "api/Enrollment/students-by-class/{classroomId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classroomId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.EnrollmentController",
+    "Method": "UnEnroll",
+    "RelativePath": "api/Enrollment/unenroll/{classId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "classId",
+        "Type": "System.Guid",
         "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -565,14 +772,14 @@
   },
   {
     "ContainingType": "ClassroomApi.Controllers.QuizController",
-    "Method": "GetQuizByQuizId",
+    "Method": "GetQuizzesByClassroomId",
     "RelativePath": "api/Quiz/classId/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
+        "Name": "id",
         "Type": "System.Guid",
         "IsRequired": true
       }
@@ -755,6 +962,22 @@
   },
   {
     "ContainingType": "ClassroomApi.Controllers.QuizSubmissionController",
+    "Method": "GetSubmissionsWithUserByQuizId",
+    "RelativePath": "api/QuizSubmission/quiz/{quizId}/submissions-with-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quizId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.QuizSubmissionController",
     "Method": "GetSubmissionsByStudentId",
     "RelativePath": "api/QuizSubmission/student/{studentId}",
     "HttpMethod": "GET",
@@ -770,6 +993,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ClassroomApi.Controllers.QuizSubmissionController",
+    "Method": "GetSubmissionsByStudentId",
+    "RelativePath": "api/QuizSubmission/student/{studentId}/quiz/{quizId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "quizId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ClassroomApi.Controllers.UsersController",
     "Method": "GetUsers",
     "RelativePath": "api/Users",
@@ -777,22 +1021,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ClassroomApi.Controllers.UsersController",
-    "Method": "CreateUser",
-    "RelativePath": "api/Users",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userDto",
-        "Type": "ClassroomApi.ModelDto.UserCreateUpdateDto",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   },
   {
@@ -843,6 +1071,38 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassroomApi.Controllers.UsersController",
+    "Method": "SignUp",
+    "RelativePath": "api/Users/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ClassroomApi.ModelDto.UserCreateUpdateDto",
         "IsRequired": true
       }
     ],

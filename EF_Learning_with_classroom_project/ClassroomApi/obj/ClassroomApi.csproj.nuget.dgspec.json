@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\EF_Learning\\ClassroomApi\\ClassroomApi.csproj": {}
+    "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\ClassroomApi.csproj": {}
   },
   "projects": {
-    "F:\\EF_Learning\\ClassroomApi\\ClassroomApi.csproj": {
+    "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\ClassroomApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\EF_Learning\\ClassroomApi\\ClassroomApi.csproj",
+        "projectUniqueName": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\ClassroomApi.csproj",
         "projectName": "ClassroomApi",
-        "projectPath": "F:\\EF_Learning\\ClassroomApi\\ClassroomApi.csproj",
+        "projectPath": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\ClassroomApi.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "F:\\EF_Learning\\ClassroomApi\\obj\\",
+        "outputPath": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

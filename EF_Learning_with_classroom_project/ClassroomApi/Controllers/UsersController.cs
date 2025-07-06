@@ -1,14 +1,18 @@
 ﻿using ClassroomApi.Data;
-using ClassroomApi.ModelDto;
 using ClassroomApi.Model;
+using ClassroomApi.ModelDto;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authorization;
 
 namespace ClassroomApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [EnableCors("Policy_2")]
+
+
+
     public class UsersController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -20,70 +24,91 @@ namespace ClassroomApi.Controllers
 
         // GET: api/users
         [HttpGet]
-        [Authorize]
-        public IActionResult GetUsers()
+        public async Task<IActionResult> GetUsers()
         {
-            var users = _context.Users.ToList();
+            var users = await _context.Users.ToListAsync();
             return Ok(users);
         }
 
         // GET: api/users/{id}
         [HttpGet("{id}")]
-        public IActionResult GetUser(Guid id)
+        public async Task<IActionResult> GetUser(Guid id)
         {
-            var user = _context.Users.Find(id);
+            var user = await _context.Users.FindAsync(id);
             if (user == null)
                 return NotFound();
+
             return Ok(user);
         }
 
-        // POST: api/users
-        [HttpPost]
-        public IActionResult CreateUser(UserCreateUpdateDto userDto)
+        [HttpPost("signup")]
+        public async Task<IActionResult> SignUp([FromBody] UserCreateUpdateDto  dto)
         {
-            if (string.IsNullOrWhiteSpace(userDto.FullName) || string.IsNullOrWhiteSpace(userDto.Role))
-                return BadRequest("FullName and Role are required.");
+            if (string.IsNullOrWhiteSpace(dto.Email) || string.IsNullOrWhiteSpace(dto.FullName) || string.IsNullOrWhiteSpace(dto.Role))
+                return BadRequest("All fields are required.");
+
+            // Check if user already exists
+            var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == dto.Email);
+            if (existingUser != null)
+                return Conflict("User with this email already exists.");
 
             var user = new User
             {
-                FullName = userDto.FullName,
-                Role = userDto.Role
+                Id = Guid.NewGuid(),
+                FullName = dto.FullName,
+                Email = dto.Email,
+                Role = dto.Role
             };
 
             _context.Users.Add(user);
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
 
+            return Ok(user);
+        }
+
+        // POST: api/auth/login
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(string Email)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == Email);
+            if (user == null)
+                return Unauthorized("User not found.");
+
+            // No password check, this is a basic version
             return Ok(user);
         }
 
         // PUT: api/users/{id}
         [HttpPut("{id}")]
-        public IActionResult UpdateUser(Guid id, UserCreateUpdateDto userDto)
+        public async Task<IActionResult> UpdateUser(Guid id, [FromBody] UserCreateUpdateDto userDto)
         {
-            var user = _context.Users.Find(id);
+            var user = await _context.Users.FindAsync(id);
             if (user == null)
                 return NotFound();
 
+            user.Email = userDto.Email;
             user.FullName = userDto.FullName;
             user.Role = userDto.Role;
 
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
             return Ok(user);
         }
 
         // DELETE: api/users/{id}
         [HttpDelete("{id}")]
-        public IActionResult  DeleteUser(Guid id)
+        public async Task<IActionResult> DeleteUser(Guid id)
         {
-            var user = _context.Users.Find(id);
+            var user = await _context.Users.FindAsync(id);
             if (user == null)
                 return NotFound();
 
             _context.Users.Remove(user);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
+
             return NoContent();
         }
     }
 }
+
 
 

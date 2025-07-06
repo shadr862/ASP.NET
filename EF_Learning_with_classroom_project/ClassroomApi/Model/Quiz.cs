@@ -6,6 +6,7 @@ namespace ClassroomApi.Model
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string Title { get; set; }
+        public DateTime PostedOn { get; set; }
         public DateTime Deadline { get; set; }
 
         public Guid ClassroomId { get; set; }

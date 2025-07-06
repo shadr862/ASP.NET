@@ -38,12 +38,26 @@ namespace ClassroomApi.Controllers
             return Ok(comment);
         }
 
-        [HttpGet("comment/{assignmentId}/{userId}")]
+        [HttpGet("assignment/{assignmentId}")]
 
-        public IActionResult GetCommentsByAssignmentAndUser(Guid assignmentId, Guid userId)
+        public IActionResult GetCommentsByAssignmentId(Guid assignmentId)
         {
             var comments = _context.Comments
-                .Where(c => c.AssignmentId == assignmentId && c.userId == userId)
+                .Where(c => c.AssignmentId == assignmentId)
+                .ToList();
+            if (comments.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(comments);
+        }
+
+        [HttpGet("announcement/{annoucementId}")]
+
+        public IActionResult GetCommentsByAnnoucementId(Guid annoucementId)
+        {
+            var comments = _context.Comments
+                .Where(c => c.AnnouncementId == annoucementId)
                 .ToList();
             if (comments.Count == 0)
             {
@@ -62,8 +76,9 @@ namespace ClassroomApi.Controllers
             }
             var comment = new Comment
             {
-                userId = commentDto.userId,
+                UserId = commentDto.UserId,
                 AssignmentId = commentDto.AssignmentId,
+                AnnouncementId = commentDto.AnnouncementId,
                 Name = commentDto.Name,
                 Content = commentDto.Content,
                 CreatedAt = DateTime.UtcNow
@@ -85,8 +100,9 @@ namespace ClassroomApi.Controllers
             {
                 return NotFound();
             }
-            comment.userId = commentDto.userId;
+            comment.UserId = commentDto.UserId;
             comment.AssignmentId = commentDto.AssignmentId;
+            comment.AnnouncementId = commentDto.AnnouncementId;
             comment.Name = commentDto.Name;
             comment.Content = commentDto.Content;
             comment.CreatedAt = DateTime.UtcNow;
