@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ClassroomApi.Model;
 using Microsoft.AspNetCore.Cors;
+using FuzzySharp;
+using Microsoft.EntityFrameworkCore;
 
 namespace ClassroomApi.Controllers
 {
@@ -80,27 +82,77 @@ namespace ClassroomApi.Controllers
 
 
 
-        [HttpPost]
-        public IActionResult CreateSubmission([FromBody] ModelDto.CreateUpdateQuizSubmissionDto submissionDto)
+
+    [HttpPost]
+    public IActionResult CreateSubmission([FromBody] ModelDto.CreateUpdateQuizSubmissionDto submissionDto)
+    {
+        if (submissionDto == null)
+            return BadRequest("Submission data is null.");
+
+        var answers = string.IsNullOrEmpty(submissionDto.AnswersJson)
+            ? new Dictionary<string, string>()
+            : System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, string>>(submissionDto.AnswersJson);
+
+        var questions = _context.QuizQuestions
+            .Where(q => q.QuizId == submissionDto.QuizId)
+            .ToList();
+
+        if (!questions.Any())
+            return BadRequest("No questions found for the quiz.");
+
+        double totalScore = 0;
+        double maxScore = questions.Count; // 1 point per question
+
+        foreach (var question in questions)
         {
-            if (submissionDto == null)
+            string key = $"{question.QuizId}_{question.Id}";
+            answers.TryGetValue(key, out string userAnswer);
+
+            double questionScore = 0;
+
+            switch (question.QuestionType)
             {
-                return BadRequest("Submission data is null.");
+                case "shortQuestion":
+                    if (!string.IsNullOrWhiteSpace(userAnswer))
+                    {
+                        int similarityRatio = Fuzz.Ratio(userAnswer, question.CorrectAnswer ?? "");
+                        questionScore = similarityRatio / 100.0;
+                    }
+                    break;
+
+                case "MCQ":
+                case "TrueFalse":
+                    if (!string.IsNullOrEmpty(userAnswer) && userAnswer == question.CorrectAnswer)
+                    {
+                        questionScore = 1;
+                    }
+                    break;
+
+                default:
+                    // If you have other question types, handle here
+                    break;
             }
-            var submission = new QuizSubmission
-            {
-                QuizId = submissionDto.QuizId,
-                StudentId = submissionDto.StudentId,
-                AnswersJson = submissionDto.AnswersJson,
-                Score = submissionDto.Score
-            };
-            _context.QuizSubmissions.Add(submission);
-            _context.SaveChanges();
-            return CreatedAtAction(nameof(GetSubmissionById), new { id = submission.Id }, submission);
+
+            totalScore += questionScore;
         }
 
+        var submission = new QuizSubmission
+        {
+            QuizId = submissionDto.QuizId,
+            StudentId = submissionDto.StudentId,
+            AnswersJson = submissionDto.AnswersJson,
+            Score = totalScore
+        };
 
-        [HttpPut("{id}")]
+        _context.QuizSubmissions.Add(submission);
+        _context.SaveChanges();
+
+        return CreatedAtAction(nameof(GetSubmissionById), new { id = submission.Id }, submission);
+    }
+
+
+
+    [HttpPut("{id}")]
         public IActionResult UpdateSubmission(Guid id, [FromBody] ModelDto.CreateUpdateQuizSubmissionDto submissionDto)
         {
             if (submissionDto == null || id != submissionDto.QuizId)

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|f:\\ostadasp.net\\ef_learning_with_classroom_project\\classroomapi\\controllers\\quizsubmissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|solutionrelative:controllers\\quizsubmissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|f:\\ostadasp.net\\ef_learning_with_classroom_project\\classroomapi\\model\\quizsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|solutionrelative:model\\quizsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|f:\\ostadasp.net\\ef_learning_with_classroom_project\\classroomapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3221507E-ED30-46E6-86A2-7A7F9E42977F}|ClassroomApi.csproj|solutionrelative:controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "QuizSubmissionController.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Controllers\\QuizSubmissionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuizSubmissionController.cs",
+              "ToolTip": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Controllers\\QuizSubmissionController.cs",
+              "RelativeToolTip": "Controllers\\QuizSubmissionController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAD4v1YAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:01:08.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizSubmission.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Model\\QuizSubmission.cs",
+              "RelativeDocumentMoniker": "Model\\QuizSubmission.cs",
+              "ToolTip": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Model\\QuizSubmission.cs",
+              "RelativeToolTip": "Model\\QuizSubmission.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:00:02.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CreateUpdateCommentDto.cs",
               "DocumentMoniker": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\ModelDto\\CreateUpdateCommentDto.cs",
               "RelativeDocumentMoniker": "ModelDto\\CreateUpdateCommentDto.cs",
@@ -38,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Comment.cs",
               "DocumentMoniker": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Model\\Comment.cs",
               "RelativeDocumentMoniker": "Model\\Comment.cs",
@@ -50,16 +83,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CommentController.cs",
               "DocumentMoniker": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "Controllers\\CommentController.cs",
               "ToolTip": "F:\\OstadASP.NET\\EF_Learning_with_classroom_project\\ClassroomApi\\Controllers\\CommentController.cs",
               "RelativeToolTip": "Controllers\\CommentController.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAMwHgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwHgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T05:31:51.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T05:31:51.482Z"
             }
           ]
         }

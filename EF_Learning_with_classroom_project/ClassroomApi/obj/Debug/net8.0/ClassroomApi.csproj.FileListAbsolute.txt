@@ -518,3 +518,4 @@ F:\OstadASP.NET\EF_Learning_with_classroom_project\ClassroomApi\obj\Debug\net8.0
 F:\OstadASP.NET\EF_Learning_with_classroom_project\ClassroomApi\obj\Debug\net8.0\ClassroomApi.genruntimeconfig.cache
 F:\OstadASP.NET\EF_Learning_with_classroom_project\ClassroomApi\obj\Debug\net8.0\ref\ClassroomApi.dll
 F:\OstadASP.NET\EF_Learning_with_classroom_project\ClassroomApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\OstadASP.NET\EF_Learning_with_classroom_project\ClassroomApi\bin\Debug\net8.0\FuzzySharp.dll
