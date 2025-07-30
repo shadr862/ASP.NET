@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\inventory\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\inventory\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:Views\\Dashboard\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\inventory\\views\\dashboard\\newassignedequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:views\\dashboard\\newassignedequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\EquipmentEntry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:Views\\Dashboard\\EquipmentEntry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\inventory\\views\\dashboard\\equipmententry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:views\\dashboard\\equipmententry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\NewAssignedEquipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:Views\\Dashboard\\NewAssignedEquipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|F:\\OstadASP.NET\\ASP.NET\\Inventory\\Controllers\\DashboardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:Controllers\\DashboardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\inventory\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|F:\\OstadASP.NET\\ASP.NET\\Inventory\\Models\\EquipmentList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:Models\\EquipmentList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|f:\\ostadasp.net\\asp.net\\inventory\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|F:\\OstadASP.NET\\ASP.NET\\Inventory\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90909AC0-AD38-479D-A50B-A297C8011C81}|Inventory.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,32 +38,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-08T15:34:16.081Z",
+              "DocumentIndex": 1,
+              "Title": "NewAssignedEquipment.cshtml",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\NewAssignedEquipment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\NewAssignedEquipment.cshtml",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\NewAssignedEquipment.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\NewAssignedEquipment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T14:17:40.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEAAAAATAAAAAAAAAA==",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml*",
+              "ViewState": "AgIAAJgAAAAAAAAAAADwv54AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T15:13:18.308Z"
+              "WhenOpened": "2025-07-30T14:17:36.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:01:07.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,45 +87,49 @@
               "RelativeDocumentMoniker": "Views\\Dashboard\\EquipmentEntry.cshtml",
               "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\EquipmentEntry.cshtml",
               "RelativeToolTip": "Views\\Dashboard\\EquipmentEntry.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAhwEsAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T06:36:45.691Z"
+              "WhenOpened": "2025-07-30T14:00:44.005Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "NewAssignedEquipment.cshtml",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\NewAssignedEquipment.cshtml",
-              "RelativeDocumentMoniker": "Views\\Dashboard\\NewAssignedEquipment.cshtml",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Views\\Dashboard\\NewAssignedEquipment.cshtml",
-              "RelativeToolTip": "Views\\Dashboard\\NewAssignedEquipment.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAhwD4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T04:53:13.108Z"
+              "Title": "Customer.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:35:42.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:26:25.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T06:32:16.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "EquipmentList.cs",
               "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Models\\EquipmentList.cs",
               "RelativeDocumentMoniker": "Models\\EquipmentList.cs",
               "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Inventory\\Models\\EquipmentList.cs",
               "RelativeToolTip": "Models\\EquipmentList.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAIwM4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAMwGwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T04:02:06.832Z"
+              "WhenOpened": "2025-04-21T04:02:06.832Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -39,7 +39,7 @@ namespace Inventory.Controllers
                     obj.Quantity = Convert.ToInt32(formCollection["txtQuantity"].ToString());
                     obj.EntryDate = Convert.ToDateTime(formCollection["txtEntryDate"].ToString());
                     obj.EndDate = Convert.ToDateTime(formCollection["txtEndDate"].ToString());
-                    obj.SaveEquipment(Convert.ToInt32(formCollection["choice"].ToString()));
+                    obj.SaveEquipment(Convert.ToInt32("1"));
                 }
             }
             else if (btnSubmit == "Update")
@@ -49,7 +49,7 @@ namespace Inventory.Controllers
                 obj.Quantity = Convert.ToInt32(formCollection["txtQuantity"].ToString());
                 obj.EntryDate = Convert.ToDateTime(formCollection["txtEntryDate"].ToString());
                 obj.EndDate = Convert.ToDateTime(formCollection["txtEndDate"].ToString());
-                obj.SaveEquipment(Convert.ToInt32(formCollection["choice"].ToString()));
+                obj.SaveEquipment(Convert.ToInt32("2"));
             }
 
             EquipmentList equipmentList = new EquipmentList();
