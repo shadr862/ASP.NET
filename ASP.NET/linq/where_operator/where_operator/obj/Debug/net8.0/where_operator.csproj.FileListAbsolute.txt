@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\bin\Debug\net8.0\where_operator.exe
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\bin\Debug\net8.0\where_operator.deps.json
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\bin\Debug\net8.0\where_operator.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\bin\Debug\net8.0\where_operator.dll
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\bin\Debug\net8.0\where_operator.pdb
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\where_operator.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\where_operator.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\where_operator.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\where_operator.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\where_operator.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\where_operator.dll
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\refint\where_operator.dll
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\where_operator.pdb
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\where_operator.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\where_operator\where_operator\obj\Debug\net8.0\ref\where_operator.dll

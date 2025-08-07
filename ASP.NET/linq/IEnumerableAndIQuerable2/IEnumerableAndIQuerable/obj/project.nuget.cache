@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xp7jR5xFlVU=",
+  "success": true,
+  "projectFilePath": "F:\\OstadASP.NET\\ASP.NET\\linq\\IEnumerableAndIQuerable2\\IEnumerableAndIQuerable\\IEnumerableAndIQuerable.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}

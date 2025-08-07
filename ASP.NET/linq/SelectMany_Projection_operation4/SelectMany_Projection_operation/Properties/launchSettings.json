@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SelectMany_Projection_operation": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

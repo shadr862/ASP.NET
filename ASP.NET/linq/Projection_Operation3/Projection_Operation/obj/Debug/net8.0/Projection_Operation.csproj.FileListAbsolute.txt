@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\bin\Debug\net8.0\Projection_Operation.exe
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\bin\Debug\net8.0\Projection_Operation.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\bin\Debug\net8.0\Projection_Operation.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\bin\Debug\net8.0\Projection_Operation.dll
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\bin\Debug\net8.0\Projection_Operation.pdb
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\Projection_Operation.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\Projection_Operation.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\Projection_Operation.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\Projection_Operation.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\Projection_Operation.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\Projection_Operation.dll
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\refint\Projection_Operation.dll
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\Projection_Operation.pdb
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\Projection_Operation.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Projection_Operation\Projection_Operation\obj\Debug\net8.0\ref\Projection_Operation.dll

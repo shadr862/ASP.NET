@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\bin\Debug\net8.0\SelectMany_Projection_operation.exe
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\bin\Debug\net8.0\SelectMany_Projection_operation.deps.json
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\bin\Debug\net8.0\SelectMany_Projection_operation.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\bin\Debug\net8.0\SelectMany_Projection_operation.dll
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\bin\Debug\net8.0\SelectMany_Projection_operation.pdb
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\SelectMany_Projection_operation.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\SelectMany_Projection_operation.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\SelectMany_Projection_operation.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\SelectMany_Projection_operation.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\SelectMany_Projection_operation.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\SelectMany_Projection_operation.dll
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\refint\SelectMany_Projection_operation.dll
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\SelectMany_Projection_operation.pdb
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\SelectMany_Projection_operation.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\SelectMany_Projection_operation\SelectMany_Projection_operation\obj\Debug\net8.0\ref\SelectMany_Projection_operation.dll

@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\linqSample1.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\linqSample1.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\linqSample1.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\linqSample1.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\linqSample1.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\bin\Debug\net8.0\linqSample1.exe
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\bin\Debug\net8.0\linqSample1.deps.json
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\bin\Debug\net8.0\linqSample1.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\bin\Debug\net8.0\linqSample1.dll
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\bin\Debug\net8.0\linqSample1.pdb
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\linqSample1.dll
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\refint\linqSample1.dll
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\linqSample1.pdb
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\linqSample1.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\linqSample1\linqSample1\obj\Debug\net8.0\ref\linqSample1.dll
