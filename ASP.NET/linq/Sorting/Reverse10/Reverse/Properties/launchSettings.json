@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Reverse": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse", "Reverse\Reverse.csproj", "{DFB760AE-8678-4F60-AF17-6B0D6A72FF68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFB760AE-8678-4F60-AF17-6B0D6A72FF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB760AE-8678-4F60-AF17-6B0D6A72FF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB760AE-8678-4F60-AF17-6B0D6A72FF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB760AE-8678-4F60-AF17-6B0D6A72FF68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E0957B9-E23E-4B97-A308-856C9AA281C6}
+	EndGlobalSection
+EndGlobal

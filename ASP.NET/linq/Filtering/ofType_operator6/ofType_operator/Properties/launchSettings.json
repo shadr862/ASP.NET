@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ofType_operator": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

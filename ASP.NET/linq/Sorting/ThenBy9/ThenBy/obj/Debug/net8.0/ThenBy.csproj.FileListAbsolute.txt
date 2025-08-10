@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\bin\Debug\net8.0\ThenBy.exe
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\bin\Debug\net8.0\ThenBy.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\bin\Debug\net8.0\ThenBy.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\bin\Debug\net8.0\ThenBy.dll
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\bin\Debug\net8.0\ThenBy.pdb
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\ThenBy.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\ThenBy.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\ThenBy.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\ThenBy.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\ThenBy.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\ThenBy.dll
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\refint\ThenBy.dll
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\ThenBy.pdb
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\ThenBy.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Sorting\ThenBy\ThenBy\obj\Debug\net8.0\ref\ThenBy.dll

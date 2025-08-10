@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54A9D39F-6847-42F7-A35F-50A96A4743C0}|OrderByDescending\\OrderByDescending.csproj|f:\\ostadasp.net\\asp.net\\linq\\sorting\\orderbydescending\\orderbydescending\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54A9D39F-6847-42F7-A35F-50A96A4743C0}|OrderByDescending\\OrderByDescending.csproj|solutionrelative:orderbydescending\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending\\OrderByDescending\\Program.cs",
+              "RelativeDocumentMoniker": "OrderByDescending\\Program.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending\\OrderByDescending\\Program.cs",
+              "RelativeToolTip": "OrderByDescending\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T04:07:34.463Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

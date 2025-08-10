@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YHu91IytulQ=",
+  "success": true,
+  "projectFilePath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy\\ThenBy\\ThenBy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}

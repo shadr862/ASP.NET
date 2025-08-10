@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OrderBy": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

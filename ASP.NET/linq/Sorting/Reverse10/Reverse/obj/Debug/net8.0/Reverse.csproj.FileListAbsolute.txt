@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\bin\Debug\net8.0\Reverse.exe
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\bin\Debug\net8.0\Reverse.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\bin\Debug\net8.0\Reverse.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\bin\Debug\net8.0\Reverse.dll
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\bin\Debug\net8.0\Reverse.pdb
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\Reverse.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\Reverse.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\Reverse.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\Reverse.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\Reverse.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\Reverse.dll
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\refint\Reverse.dll
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\Reverse.pdb
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\Reverse.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Sorting\Reverse\Reverse\obj\Debug\net8.0\ref\Reverse.dll

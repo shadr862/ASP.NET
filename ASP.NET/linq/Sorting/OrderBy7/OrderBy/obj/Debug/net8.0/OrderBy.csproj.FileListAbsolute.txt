@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\bin\Debug\net8.0\OrderBy.exe
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\bin\Debug\net8.0\OrderBy.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\bin\Debug\net8.0\OrderBy.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\bin\Debug\net8.0\OrderBy.dll
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\bin\Debug\net8.0\OrderBy.pdb
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\OrderBy.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\OrderBy.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\OrderBy.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\OrderBy.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\OrderBy.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\OrderBy.dll
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\refint\OrderBy.dll
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\OrderBy.pdb
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\OrderBy.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Sorting\OrderBy\OrderBy\obj\Debug\net8.0\ref\OrderBy.dll

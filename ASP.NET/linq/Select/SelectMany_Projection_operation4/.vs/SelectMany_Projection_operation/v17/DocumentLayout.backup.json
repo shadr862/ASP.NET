@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Select\\SelectMany_Projection_operation4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5762864-434F-479F-A0A0-02F727E6266E}|SelectMany_Projection_operation\\SelectMany_Projection_operation.csproj|f:\\ostadasp.net\\asp.net\\linq\\select\\selectmany_projection_operation4\\selectmany_projection_operation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5762864-434F-479F-A0A0-02F727E6266E}|SelectMany_Projection_operation\\SelectMany_Projection_operation.csproj|solutionrelative:selectmany_projection_operation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5762864-434F-479F-A0A0-02F727E6266E}|SelectMany_Projection_operation\\SelectMany_Projection_operation.csproj|f:\\ostadasp.net\\asp.net\\linq\\select\\selectmany_projection_operation4\\selectmany_projection_operation\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5762864-434F-479F-A0A0-02F727E6266E}|SelectMany_Projection_operation\\SelectMany_Projection_operation.csproj|solutionrelative:selectmany_projection_operation\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5762864-434F-479F-A0A0-02F727E6266E}|SelectMany_Projection_operation\\SelectMany_Projection_operation.csproj|f:\\ostadasp.net\\asp.net\\linq\\select\\selectmany_projection_operation4\\selectmany_projection_operation\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5762864-434F-479F-A0A0-02F727E6266E}|SelectMany_Projection_operation\\SelectMany_Projection_operation.csproj|solutionrelative:selectmany_projection_operation\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\Select\\SelectMany_Projection_operation4\\SelectMany_Projection_operation\\Student.cs",
+              "RelativeDocumentMoniker": "SelectMany_Projection_operation\\Student.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\Select\\SelectMany_Projection_operation4\\SelectMany_Projection_operation\\Student.cs",
+              "RelativeToolTip": "SelectMany_Projection_operation\\Student.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T14:42:39.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\Select\\SelectMany_Projection_operation4\\SelectMany_Projection_operation\\Employee.cs",
+              "RelativeDocumentMoniker": "SelectMany_Projection_operation\\Employee.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\Select\\SelectMany_Projection_operation4\\SelectMany_Projection_operation\\Employee.cs",
+              "RelativeToolTip": "SelectMany_Projection_operation\\Employee.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T14:20:37.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\Select\\SelectMany_Projection_operation4\\SelectMany_Projection_operation\\Program.cs",
+              "RelativeDocumentMoniker": "SelectMany_Projection_operation\\Program.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\Select\\SelectMany_Projection_operation4\\SelectMany_Projection_operation\\Program.cs",
+              "RelativeToolTip": "SelectMany_Projection_operation\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T14:08:03.198Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
