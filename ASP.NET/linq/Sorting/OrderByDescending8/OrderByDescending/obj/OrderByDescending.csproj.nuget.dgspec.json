@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending\\OrderByDescending\\OrderByDescending.csproj": {}
+    "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending8\\OrderByDescending\\OrderByDescending.csproj": {}
   },
   "projects": {
-    "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending\\OrderByDescending\\OrderByDescending.csproj": {
+    "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending8\\OrderByDescending\\OrderByDescending.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending\\OrderByDescending\\OrderByDescending.csproj",
+        "projectUniqueName": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending8\\OrderByDescending\\OrderByDescending.csproj",
         "projectName": "OrderByDescending",
-        "projectPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending\\OrderByDescending\\OrderByDescending.csproj",
+        "projectPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending8\\OrderByDescending\\OrderByDescending.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending\\OrderByDescending\\obj\\",
+        "outputPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\OrderByDescending8\\OrderByDescending\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

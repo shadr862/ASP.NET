@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\bin\Debug\net8.0\Any.exe
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\bin\Debug\net8.0\Any.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\bin\Debug\net8.0\Any.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\bin\Debug\net8.0\Any.dll
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\bin\Debug\net8.0\Any.pdb
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\Any.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\Any.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\Any.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\Any.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\Any.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\Any.dll
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\refint\Any.dll
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\Any.pdb
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\Any.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Any\Any\obj\Debug\net8.0\ref\Any.dll

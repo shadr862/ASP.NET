@@ -1,9 +1,0 @@
-inventory->https://github.com/shadr862/ASP.NET/tree/main/ASP.NET/Inventory
-
-ecommerce->https://github.com/shadr862/Ecommerce
-
-Q&A Application->https://github.com/shadr862/stackoverflow
-
-optional:
-
-classroom->https://github.com/shadr862/classroom

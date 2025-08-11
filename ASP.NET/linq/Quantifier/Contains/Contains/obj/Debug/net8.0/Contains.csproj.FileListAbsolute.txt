@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\bin\Debug\net8.0\Contains.exe
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\bin\Debug\net8.0\Contains.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\bin\Debug\net8.0\Contains.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\bin\Debug\net8.0\Contains.dll
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\bin\Debug\net8.0\Contains.pdb
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\Contains.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\Contains.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\Contains.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\Contains.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\Contains.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\Contains.dll
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\refint\Contains.dll
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\Contains.pdb
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\Contains.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Quantifier\Contains\Contains\obj\Debug\net8.0\ref\Contains.dll
