@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\bin\Debug\net8.0\Distinct.exe
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\bin\Debug\net8.0\Distinct.deps.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\bin\Debug\net8.0\Distinct.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\bin\Debug\net8.0\Distinct.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\bin\Debug\net8.0\Distinct.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\Distinct.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\Distinct.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\Distinct.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\Distinct.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\Distinct.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\Distinct.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\refint\Distinct.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\Distinct.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\Distinct.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Distinct\Distinct\obj\Debug\net8.0\ref\Distinct.dll

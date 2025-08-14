@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Union": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

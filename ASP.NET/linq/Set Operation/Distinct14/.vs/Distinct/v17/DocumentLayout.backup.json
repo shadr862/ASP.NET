@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\Distinct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6071DF19-7087-4BF9-9A39-CB7CF4179388}|Distinct\\Distinct.csproj|f:\\ostadasp.net\\asp.net\\linq\\setoperation\\distinct\\distinct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6071DF19-7087-4BF9-9A39-CB7CF4179388}|Distinct\\Distinct.csproj|solutionrelative:distinct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6071DF19-7087-4BF9-9A39-CB7CF4179388}|Distinct\\Distinct.csproj|f:\\ostadasp.net\\asp.net\\linq\\setoperation\\distinct\\distinct\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6071DF19-7087-4BF9-9A39-CB7CF4179388}|Distinct\\Distinct.csproj|solutionrelative:distinct\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\Distinct\\Distinct\\Student.cs",
+              "RelativeDocumentMoniker": "Distinct\\Student.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\Distinct\\Distinct\\Student.cs",
+              "RelativeToolTip": "Distinct\\Student.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIAwwCAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:32:45.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\Distinct\\Distinct\\Program.cs",
+              "RelativeDocumentMoniker": "Distinct\\Program.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\Distinct\\Distinct\\Program.cs",
+              "RelativeToolTip": "Distinct\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAlwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:25:39.933Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

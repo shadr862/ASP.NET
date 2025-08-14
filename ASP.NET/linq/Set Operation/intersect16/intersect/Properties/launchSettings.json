@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "intersect": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

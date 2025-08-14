@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\intersect16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8319BF-EEBB-461E-A411-4CF3E10A485C}|intersect\\intersect.csproj|f:\\ostadasp.net\\asp.net\\linq\\setoperation\\intersect16\\intersect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8319BF-EEBB-461E-A411-4CF3E10A485C}|intersect\\intersect.csproj|solutionrelative:intersect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8319BF-EEBB-461E-A411-4CF3E10A485C}|intersect\\intersect.csproj|f:\\ostadasp.net\\asp.net\\linq\\setoperation\\intersect16\\intersect\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8319BF-EEBB-461E-A411-4CF3E10A485C}|intersect\\intersect.csproj|solutionrelative:intersect\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\intersect16\\intersect\\Student.cs",
+              "RelativeDocumentMoniker": "intersect\\Student.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\intersect16\\intersect\\Student.cs",
+              "RelativeToolTip": "intersect\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T04:55:37.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\intersect16\\intersect\\Program.cs",
+              "RelativeDocumentMoniker": "intersect\\Program.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\SetOperation\\intersect16\\intersect\\Program.cs",
+              "RelativeToolTip": "intersect\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T04:54:13.169Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

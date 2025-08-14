@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\TakeWhile.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\TakeWhile.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\TakeWhile.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\TakeWhile.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\TakeWhile.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\bin\Debug\net8.0\TakeWhile.exe
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\bin\Debug\net8.0\TakeWhile.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\bin\Debug\net8.0\TakeWhile.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\bin\Debug\net8.0\TakeWhile.dll
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\bin\Debug\net8.0\TakeWhile.pdb
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\TakeWhile.dll
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\refint\TakeWhile.dll
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\TakeWhile.pdb
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\TakeWhile.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Patition Operation\TakeWhile\TakeWhile\obj\Debug\net8.0\ref\TakeWhile.dll

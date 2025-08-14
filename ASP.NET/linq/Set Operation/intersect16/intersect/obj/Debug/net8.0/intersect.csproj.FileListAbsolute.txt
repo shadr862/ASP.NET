@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\bin\Debug\net8.0\intersect.exe
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\bin\Debug\net8.0\intersect.deps.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\bin\Debug\net8.0\intersect.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\bin\Debug\net8.0\intersect.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\bin\Debug\net8.0\intersect.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\intersect.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\intersect.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\intersect.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\intersect.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\intersect.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\intersect.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\refint\intersect.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\intersect.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\intersect.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\intersect\intersect\obj\Debug\net8.0\ref\intersect.dll

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Except": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

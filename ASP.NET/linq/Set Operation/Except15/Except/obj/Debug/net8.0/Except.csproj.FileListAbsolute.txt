@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\bin\Debug\net8.0\Except.exe
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\bin\Debug\net8.0\Except.deps.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\bin\Debug\net8.0\Except.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\bin\Debug\net8.0\Except.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\bin\Debug\net8.0\Except.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\Except.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\Except.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\Except.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\Except.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\Except.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\Except.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\refint\Except.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\Except.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\Except.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Except\Except\obj\Debug\net8.0\ref\Except.dll

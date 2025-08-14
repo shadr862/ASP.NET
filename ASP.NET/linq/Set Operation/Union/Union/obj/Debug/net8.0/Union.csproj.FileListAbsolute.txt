@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\bin\Debug\net8.0\Union.exe
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\bin\Debug\net8.0\Union.deps.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\bin\Debug\net8.0\Union.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\bin\Debug\net8.0\Union.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\bin\Debug\net8.0\Union.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\Union.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\Union.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\Union.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\Union.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\Union.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\Union.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\refint\Union.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\Union.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\Union.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Union\Union\obj\Debug\net8.0\ref\Union.dll
