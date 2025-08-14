@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\bin\Debug\net8.0\Take.exe
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\bin\Debug\net8.0\Take.deps.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\bin\Debug\net8.0\Take.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\bin\Debug\net8.0\Take.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\bin\Debug\net8.0\Take.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\Take.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\Take.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\Take.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\Take.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\Take.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\Take.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\refint\Take.dll
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\Take.pdb
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\Take.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\SetOperation\Take\Take\obj\Debug\net8.0\ref\Take.dll

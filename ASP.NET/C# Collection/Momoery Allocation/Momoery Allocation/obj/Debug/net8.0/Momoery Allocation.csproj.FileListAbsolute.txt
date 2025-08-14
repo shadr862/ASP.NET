@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\bin\Debug\net8.0\Momoery Allocation.exe
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\bin\Debug\net8.0\Momoery Allocation.deps.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\bin\Debug\net8.0\Momoery Allocation.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\bin\Debug\net8.0\Momoery Allocation.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\bin\Debug\net8.0\Momoery Allocation.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\Momoery Allocation.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\Momoery Allocation.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\Momoery Allocation.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\Momoery Allocation.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\Momoery Allocation.sourcelink.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\Momoery Allocation.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\refint\Momoery Allocation.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\Momoery Allocation.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\Momoery Allocation.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Momoery Allocation\Momoery Allocation\obj\Debug\net8.0\ref\Momoery Allocation.dll

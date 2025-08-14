@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\bin\Debug\net8.0\jagged Array.exe
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\bin\Debug\net8.0\jagged Array.deps.json
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\bin\Debug\net8.0\jagged Array.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\bin\Debug\net8.0\jagged Array.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\bin\Debug\net8.0\jagged Array.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\jagged Array.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\jagged Array.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\jagged Array.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\jagged Array.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\jagged Array.sourcelink.json
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\jagged Array.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\refint\jagged Array.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\jagged Array.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\jagged Array.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\jagged Array\jagged Array\obj\Debug\net8.0\ref\jagged Array.dll

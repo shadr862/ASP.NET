@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TakeWhile": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

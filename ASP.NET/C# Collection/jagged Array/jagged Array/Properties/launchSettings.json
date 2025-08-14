@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "jagged Array": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

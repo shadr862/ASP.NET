@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Momoery Allocation": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
