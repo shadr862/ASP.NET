@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy\\ThenBy\\ThenBy.csproj": {}
+    "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy9\\ThenBy\\ThenBy.csproj": {}
   },
   "projects": {
-    "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy\\ThenBy\\ThenBy.csproj": {
+    "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy9\\ThenBy\\ThenBy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy\\ThenBy\\ThenBy.csproj",
+        "projectUniqueName": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy9\\ThenBy\\ThenBy.csproj",
         "projectName": "ThenBy",
-        "projectPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy\\ThenBy\\ThenBy.csproj",
+        "projectPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy9\\ThenBy\\ThenBy.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy\\ThenBy\\obj\\",
+        "outputPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy9\\ThenBy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

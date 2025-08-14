@@ -1,10 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "YHu91IytulQ=",
+  "dgSpecHash": "TeJniDmZLC4=",
   "success": true,
-  "projectFilePath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy\\ThenBy\\ThenBy.csproj",
+  "projectFilePath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy9\\ThenBy\\ThenBy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy9\\ThenBy\\ThenBy.csproj",
+      "warningLevel": 1,
+      "filePath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Sorting\\ThenBy9\\ThenBy\\ThenBy.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
