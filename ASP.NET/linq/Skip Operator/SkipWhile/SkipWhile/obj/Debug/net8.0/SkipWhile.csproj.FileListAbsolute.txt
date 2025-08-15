@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\bin\Debug\net8.0\SkipWhile.exe
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\bin\Debug\net8.0\SkipWhile.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\bin\Debug\net8.0\SkipWhile.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\bin\Debug\net8.0\SkipWhile.dll
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\bin\Debug\net8.0\SkipWhile.pdb
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\SkipWhile.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\SkipWhile.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\SkipWhile.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\SkipWhile.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\SkipWhile.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\SkipWhile.dll
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\refint\SkipWhile.dll
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\SkipWhile.pdb
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\SkipWhile.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\SkipWhile\SkipWhile\obj\Debug\net8.0\ref\SkipWhile.dll

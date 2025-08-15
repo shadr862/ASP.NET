@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\bin\Debug\net8.0\Paging.exe
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\bin\Debug\net8.0\Paging.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\bin\Debug\net8.0\Paging.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\bin\Debug\net8.0\Paging.dll
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\bin\Debug\net8.0\Paging.pdb
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\Paging.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\Paging.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\Paging.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\Paging.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\Paging.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\Paging.dll
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\refint\Paging.dll
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\Paging.pdb
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\Paging.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\Paging\Paging\obj\Debug\net8.0\ref\Paging.dll

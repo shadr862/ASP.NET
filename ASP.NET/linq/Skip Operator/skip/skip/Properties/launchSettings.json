@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "skip": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

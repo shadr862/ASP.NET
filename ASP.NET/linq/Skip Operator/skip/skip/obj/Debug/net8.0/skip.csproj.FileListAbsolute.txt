@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\bin\Debug\net8.0\skip.exe
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\bin\Debug\net8.0\skip.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\bin\Debug\net8.0\skip.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\bin\Debug\net8.0\skip.dll
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\bin\Debug\net8.0\skip.pdb
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\skip.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\skip.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\skip.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\skip.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\skip.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\skip.dll
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\refint\skip.dll
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\skip.pdb
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\skip.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Skip Operator\skip\skip\obj\Debug\net8.0\ref\skip.dll

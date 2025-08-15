@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SkipWhile": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
