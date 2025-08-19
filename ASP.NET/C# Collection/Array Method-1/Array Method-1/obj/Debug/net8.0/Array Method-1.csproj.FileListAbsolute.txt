@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\bin\Debug\net8.0\Array Method-1.exe
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\bin\Debug\net8.0\Array Method-1.deps.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\bin\Debug\net8.0\Array Method-1.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\bin\Debug\net8.0\Array Method-1.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\bin\Debug\net8.0\Array Method-1.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\Array Method-1.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\Array Method-1.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\Array Method-1.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\Array Method-1.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\Array Method-1.sourcelink.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\Array Method-1.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\refint\Array Method-1.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\Array Method-1.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\Array Method-1.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Array Method-1\Array Method-1\obj\Debug\net8.0\ref\Array Method-1.dll

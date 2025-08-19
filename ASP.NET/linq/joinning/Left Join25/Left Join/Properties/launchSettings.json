@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Left Join": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

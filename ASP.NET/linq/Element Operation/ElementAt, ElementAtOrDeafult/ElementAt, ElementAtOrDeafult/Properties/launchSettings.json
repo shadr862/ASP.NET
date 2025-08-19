@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ElementAt, ElementAtOrDeafult": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

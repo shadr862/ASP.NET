@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\Inner join\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B801DBEF-0B92-4CD9-9614-6259BCCC8DEB}|Inner join\\Inner join.csproj|f:\\ostadasp.net\\asp.net\\linq\\joinning\\inner join\\inner join\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B801DBEF-0B92-4CD9-9614-6259BCCC8DEB}|Inner join\\Inner join.csproj|solutionrelative:inner join\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B801DBEF-0B92-4CD9-9614-6259BCCC8DEB}|Inner join\\Inner join.csproj|f:\\ostadasp.net\\asp.net\\linq\\joinning\\inner join\\inner join\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B801DBEF-0B92-4CD9-9614-6259BCCC8DEB}|Inner join\\Inner join.csproj|solutionrelative:inner join\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B801DBEF-0B92-4CD9-9614-6259BCCC8DEB}|Inner join\\Inner join.csproj|f:\\ostadasp.net\\asp.net\\linq\\joinning\\inner join\\inner join\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B801DBEF-0B92-4CD9-9614-6259BCCC8DEB}|Inner join\\Inner join.csproj|solutionrelative:inner join\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B801DBEF-0B92-4CD9-9614-6259BCCC8DEB}|Inner join\\Inner join.csproj|f:\\ostadasp.net\\asp.net\\linq\\joinning\\inner join\\inner join\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B801DBEF-0B92-4CD9-9614-6259BCCC8DEB}|Inner join\\Inner join.csproj|solutionrelative:inner join\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mark.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\Inner join\\Inner join\\Mark.cs",
+              "RelativeDocumentMoniker": "Inner join\\Mark.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\Inner join\\Inner join\\Mark.cs",
+              "RelativeToolTip": "Inner join\\Mark.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T04:44:20.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Address.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\Inner join\\Inner join\\Address.cs",
+              "RelativeDocumentMoniker": "Inner join\\Address.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\Inner join\\Inner join\\Address.cs",
+              "RelativeToolTip": "Inner join\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T04:18:16.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\Inner join\\Inner join\\Student.cs",
+              "RelativeDocumentMoniker": "Inner join\\Student.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\Inner join\\Inner join\\Student.cs",
+              "RelativeToolTip": "Inner join\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T04:17:40.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\Inner join\\Inner join\\Program.cs",
+              "RelativeDocumentMoniker": "Inner join\\Program.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\Inner join\\Inner join\\Program.cs",
+              "RelativeToolTip": "Inner join\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAMwCkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T04:17:00.27Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

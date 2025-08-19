@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GroupJoin": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

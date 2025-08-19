@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Inner join": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\GroupJoin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F378B9CA-5702-450F-B1B3-9A8E9303B1D5}|GroupJoin\\GroupJoin.csproj|f:\\ostadasp.net\\asp.net\\linq\\joinning\\groupjoin\\groupjoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F378B9CA-5702-450F-B1B3-9A8E9303B1D5}|GroupJoin\\GroupJoin.csproj|solutionrelative:groupjoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F378B9CA-5702-450F-B1B3-9A8E9303B1D5}|GroupJoin\\GroupJoin.csproj|f:\\ostadasp.net\\asp.net\\linq\\joinning\\groupjoin\\groupjoin\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F378B9CA-5702-450F-B1B3-9A8E9303B1D5}|GroupJoin\\GroupJoin.csproj|solutionrelative:groupjoin\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F378B9CA-5702-450F-B1B3-9A8E9303B1D5}|GroupJoin\\GroupJoin.csproj|f:\\ostadasp.net\\asp.net\\linq\\joinning\\groupjoin\\groupjoin\\catagory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F378B9CA-5702-450F-B1B3-9A8E9303B1D5}|GroupJoin\\GroupJoin.csproj|solutionrelative:groupjoin\\catagory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Catagory.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\GroupJoin\\GroupJoin\\Catagory.cs",
+              "RelativeDocumentMoniker": "GroupJoin\\Catagory.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\GroupJoin\\GroupJoin\\Catagory.cs",
+              "RelativeToolTip": "GroupJoin\\Catagory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T03:43:51.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\GroupJoin\\GroupJoin\\Student.cs",
+              "RelativeDocumentMoniker": "GroupJoin\\Student.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\GroupJoin\\GroupJoin\\Student.cs",
+              "RelativeToolTip": "GroupJoin\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T03:42:56.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\GroupJoin\\GroupJoin\\Program.cs",
+              "RelativeDocumentMoniker": "GroupJoin\\Program.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\joinning\\GroupJoin\\GroupJoin\\Program.cs",
+              "RelativeToolTip": "GroupJoin\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAMwDIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T03:41:47.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

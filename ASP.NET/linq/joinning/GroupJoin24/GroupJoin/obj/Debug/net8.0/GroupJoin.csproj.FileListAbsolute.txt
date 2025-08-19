@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\bin\Debug\net8.0\GroupJoin.exe
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\bin\Debug\net8.0\GroupJoin.deps.json
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\bin\Debug\net8.0\GroupJoin.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\bin\Debug\net8.0\GroupJoin.dll
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\bin\Debug\net8.0\GroupJoin.pdb
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\GroupJoin.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\GroupJoin.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\GroupJoin.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\GroupJoin.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\GroupJoin.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\GroupJoin.dll
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\refint\GroupJoin.dll
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\GroupJoin.pdb
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\GroupJoin.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\joinning\GroupJoin\GroupJoin\obj\Debug\net8.0\ref\GroupJoin.dll
