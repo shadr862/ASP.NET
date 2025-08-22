@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\bin\Debug\net8.0\Last,LastOrDeafult.exe
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\bin\Debug\net8.0\Last,LastOrDeafult.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\bin\Debug\net8.0\Last,LastOrDeafult.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\bin\Debug\net8.0\Last,LastOrDeafult.dll
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\bin\Debug\net8.0\Last,LastOrDeafult.pdb
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\Last,LastOrDeafult.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\Last,LastOrDeafult.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\Last,LastOrDeafult.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\Last,LastOrDeafult.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\Last,LastOrDeafult.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\Last,LastOrDeafult.dll
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\refint\Last,LastOrDeafult.dll
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\Last,LastOrDeafult.pdb
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\Last,LastOrDeafult.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\Last,LastOrDeafult\Last,LastOrDeafult\obj\Debug\net8.0\ref\Last,LastOrDeafult.dll

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Single,SingleOrDeafult": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

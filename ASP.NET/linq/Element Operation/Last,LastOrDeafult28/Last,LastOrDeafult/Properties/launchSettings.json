@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Last,LastOrDeafult": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

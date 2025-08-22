@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Element Operation\\First,FirstOrDeafult\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5101B121-294B-4D6D-B5DA-15039D7490C2}|First,FirstOrDeafult\\First,FirstOrDeafult.csproj|f:\\ostadasp.net\\asp.net\\linq\\element operation\\first,firstordeafult\\first,firstordeafult\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5101B121-294B-4D6D-B5DA-15039D7490C2}|First,FirstOrDeafult\\First,FirstOrDeafult.csproj|solutionrelative:first,firstordeafult\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5101B121-294B-4D6D-B5DA-15039D7490C2}|First,FirstOrDeafult\\First,FirstOrDeafult.csproj|f:\\ostadasp.net\\asp.net\\linq\\element operation\\first,firstordeafult\\first,firstordeafult\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5101B121-294B-4D6D-B5DA-15039D7490C2}|First,FirstOrDeafult\\First,FirstOrDeafult.csproj|solutionrelative:first,firstordeafult\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\Element Operation\\First,FirstOrDeafult\\First,FirstOrDeafult\\User.cs",
+              "RelativeDocumentMoniker": "First,FirstOrDeafult\\User.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\Element Operation\\First,FirstOrDeafult\\First,FirstOrDeafult\\User.cs",
+              "RelativeToolTip": "First,FirstOrDeafult\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T03:40:45.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\Element Operation\\First,FirstOrDeafult\\First,FirstOrDeafult\\Program.cs",
+              "RelativeDocumentMoniker": "First,FirstOrDeafult\\Program.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\Element Operation\\First,FirstOrDeafult\\First,FirstOrDeafult\\Program.cs",
+              "RelativeToolTip": "First,FirstOrDeafult\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T03:22:20.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

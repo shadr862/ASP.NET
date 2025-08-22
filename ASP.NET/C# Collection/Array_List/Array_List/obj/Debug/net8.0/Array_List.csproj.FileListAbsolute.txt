@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\bin\Debug\net8.0\Array_List.exe
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\bin\Debug\net8.0\Array_List.deps.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\bin\Debug\net8.0\Array_List.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\bin\Debug\net8.0\Array_List.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\bin\Debug\net8.0\Array_List.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\Array_List.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\Array_List.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\Array_List.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\Array_List.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\Array_List.sourcelink.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\Array_List.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\refint\Array_List.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\Array_List.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\Array_List.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Array_List\Array_List\obj\Debug\net8.0\ref\Array_List.dll

@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\bin\Debug\net8.0\First,FirstOrDeafult.exe
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\bin\Debug\net8.0\First,FirstOrDeafult.deps.json
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\bin\Debug\net8.0\First,FirstOrDeafult.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\bin\Debug\net8.0\First,FirstOrDeafult.dll
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\bin\Debug\net8.0\First,FirstOrDeafult.pdb
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\First,FirstOrDeafult.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\First,FirstOrDeafult.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\First,FirstOrDeafult.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\First,FirstOrDeafult.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\First,FirstOrDeafult.sourcelink.json
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\First,FirstOrDeafult.dll
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\refint\First,FirstOrDeafult.dll
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\First,FirstOrDeafult.pdb
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\First,FirstOrDeafult.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\linq\Element Operation\First,FirstOrDeafult\First,FirstOrDeafult\obj\Debug\net8.0\ref\First,FirstOrDeafult.dll
