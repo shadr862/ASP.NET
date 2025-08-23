@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Momoery Allocation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7653165a4119dd079d69616b8db93c1709f2119b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73dfb259709ee77046c629ee4b1754052cd83d57")]
 [assembly: System.Reflection.AssemblyProductAttribute("Momoery Allocation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Momoery Allocation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Hash_table Properties": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

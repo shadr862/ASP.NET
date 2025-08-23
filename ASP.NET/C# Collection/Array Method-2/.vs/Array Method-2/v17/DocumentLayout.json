@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\linq\\Element Operation\\Array Method-2\\",
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\C# Collection\\Array Method-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FEC42C8-FFA1-4366-B788-14183E6DD5F9}|Array Method-2\\Array Method-2.csproj|f:\\ostadasp.net\\asp.net\\linq\\element operation\\array method-2\\array method-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FEC42C8-FFA1-4366-B788-14183E6DD5F9}|Array Method-2\\Array Method-2.csproj|f:\\ostadasp.net\\asp.net\\c# collection\\array method-2\\array method-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FEC42C8-FFA1-4366-B788-14183E6DD5F9}|Array Method-2\\Array Method-2.csproj|solutionrelative:array method-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\linq\\Element Operation\\Array Method-2\\Array Method-2\\Program.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\C# Collection\\Array Method-2\\Array Method-2\\Program.cs",
               "RelativeDocumentMoniker": "Array Method-2\\Program.cs",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\linq\\Element Operation\\Array Method-2\\Array Method-2\\Program.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\C# Collection\\Array Method-2\\Array Method-2\\Program.cs",
               "RelativeToolTip": "Array Method-2\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T03:52:36.414Z",
               "EditorCaption": ""
