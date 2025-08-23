@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SortedList_Properties": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

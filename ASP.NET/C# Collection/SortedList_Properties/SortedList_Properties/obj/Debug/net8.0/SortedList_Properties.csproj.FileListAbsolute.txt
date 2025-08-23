@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\bin\Debug\net8.0\SortedList_Properties.exe
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\bin\Debug\net8.0\SortedList_Properties.deps.json
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\bin\Debug\net8.0\SortedList_Properties.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\bin\Debug\net8.0\SortedList_Properties.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\bin\Debug\net8.0\SortedList_Properties.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\SortedList_Properties.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\SortedList_Properties.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\SortedList_Properties.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\SortedList_Properties.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\SortedList_Properties.sourcelink.json
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\SortedList_Properties.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\refint\SortedList_Properties.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\SortedList_Properties.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\SortedList_Properties.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\SortedList_Properties\SortedList_Properties\obj\Debug\net8.0\ref\SortedList_Properties.dll

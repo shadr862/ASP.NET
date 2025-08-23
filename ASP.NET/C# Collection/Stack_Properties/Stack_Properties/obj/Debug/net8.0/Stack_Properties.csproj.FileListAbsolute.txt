@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\bin\Debug\net8.0\Stack_Properties.exe
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\bin\Debug\net8.0\Stack_Properties.deps.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\bin\Debug\net8.0\Stack_Properties.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\bin\Debug\net8.0\Stack_Properties.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\bin\Debug\net8.0\Stack_Properties.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\Stack_Properties.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\Stack_Properties.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\Stack_Properties.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\Stack_Properties.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\Stack_Properties.sourcelink.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\Stack_Properties.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\refint\Stack_Properties.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\Stack_Properties.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\Stack_Properties.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Stack_Properties\Stack_Properties\obj\Debug\net8.0\ref\Stack_Properties.dll

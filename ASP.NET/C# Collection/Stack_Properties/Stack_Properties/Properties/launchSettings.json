@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Stack_Properties": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

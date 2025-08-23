@@ -1,0 +1,15 @@
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\bin\Debug\net8.0\Queue_Properties.exe
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\bin\Debug\net8.0\Queue_Properties.deps.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\bin\Debug\net8.0\Queue_Properties.runtimeconfig.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\bin\Debug\net8.0\Queue_Properties.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\bin\Debug\net8.0\Queue_Properties.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\Queue_Properties.GeneratedMSBuildEditorConfig.editorconfig
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\Queue_Properties.AssemblyInfoInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\Queue_Properties.AssemblyInfo.cs
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\Queue_Properties.csproj.CoreCompileInputs.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\Queue_Properties.sourcelink.json
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\Queue_Properties.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\refint\Queue_Properties.dll
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\Queue_Properties.pdb
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\Queue_Properties.genruntimeconfig.cache
+F:\OstadASP.NET\ASP.NET\C# Collection\Queue_Properties\Queue_Properties\obj\Debug\net8.0\ref\Queue_Properties.dll

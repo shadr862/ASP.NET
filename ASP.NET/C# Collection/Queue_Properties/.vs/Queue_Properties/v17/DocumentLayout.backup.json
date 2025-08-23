@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OstadASP.NET\\ASP.NET\\C# Collection\\Queue_Properties\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F38D456-D80A-4434-B4AA-AF899DF83008}|Queue_Properties\\Queue_Properties.csproj|f:\\ostadasp.net\\asp.net\\c# collection\\queue_properties\\queue_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F38D456-D80A-4434-B4AA-AF899DF83008}|Queue_Properties\\Queue_Properties.csproj|solutionrelative:queue_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\C# Collection\\Queue_Properties\\Queue_Properties\\Program.cs",
+              "RelativeDocumentMoniker": "Queue_Properties\\Program.cs",
+              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\C# Collection\\Queue_Properties\\Queue_Properties\\Program.cs*",
+              "RelativeToolTip": "Queue_Properties\\Program.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:01:22.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

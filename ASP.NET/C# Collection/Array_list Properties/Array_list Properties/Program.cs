@@ -25,7 +25,7 @@ namespace Array_list_Properties
             arrayList1[0] = 4656;
 
             var arrayList2 = ArrayList.ReadOnly(arrayList);
-            Console.WriteLine("arrayList2 isReadOnly:" + arrayList1.IsFixedSize);
+            Console.WriteLine("arrayList2 isReadOnly:" + arrayList2.IsReadOnly);
             //we can not add or remove or update element in arraylist2
 
         }
