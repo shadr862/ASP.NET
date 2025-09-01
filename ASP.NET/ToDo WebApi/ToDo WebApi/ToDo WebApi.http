@@ -1,0 +1,6 @@
+@ToDo_WebApi_HostAddress = http://localhost:5025
+
+GET {{ToDo_WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

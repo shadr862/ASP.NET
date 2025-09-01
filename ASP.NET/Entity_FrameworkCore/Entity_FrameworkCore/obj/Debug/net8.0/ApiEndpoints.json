@@ -1,0 +1,112 @@
+[
+  {
+    "ContainingType": "Entity_FrameworkCore.Controllers.ManagerController",
+    "Method": "GetAll",
+    "RelativePath": "api/Manager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entity_FrameworkCore.Controllers.ManagerController",
+    "Method": "GetById",
+    "RelativePath": "api/Manager/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entity_FrameworkCore.Controllers.ManagerController",
+    "Method": "UpdateData",
+    "RelativePath": "api/Manager/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerDto",
+        "Type": "Entity_FrameworkCore.ModelDto.CreateUpdateManagerDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entity_FrameworkCore.Controllers.ManagerController",
+    "Method": "DeleteData",
+    "RelativePath": "api/Manager/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entity_FrameworkCore.Controllers.ManagerController",
+    "Method": "AddData",
+    "RelativePath": "api/Manager/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerDto",
+        "Type": "Entity_FrameworkCore.ModelDto.CreateUpdateManagerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entity_FrameworkCore.Controllers.ManagerController",
+    "Method": "AllLoading",
+    "RelativePath": "api/Manager/allLoading",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entity_FrameworkCore.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Entity_FrameworkCore.WeatherForecast, Entity_FrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

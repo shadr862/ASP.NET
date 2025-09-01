@@ -1,0 +1,123 @@
+[
+  {
+    "ContainingType": "ToDo_WebApi.Controllers.ToDoController",
+    "Method": "AddToDoItem",
+    "RelativePath": "api/ToDo/AddToDoItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ToDoDto",
+        "Type": "ToDo_WebApi.ModelDto.CreateUpdateToDo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDo_WebApi.Controllers.ToDoController",
+    "Method": "DeleteTodoItem",
+    "RelativePath": "api/ToDo/DeleteTodoItem/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDo_WebApi.Controllers.ToDoController",
+    "Method": "GetAll",
+    "RelativePath": "api/ToDo/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDo_WebApi.Controllers.ToDoController",
+    "Method": "GetById",
+    "RelativePath": "api/ToDo/GetById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDo_WebApi.Controllers.ToDoController",
+    "Method": "PatchTodoItem",
+    "RelativePath": "api/ToDo/PatchTodoItem/{Id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "PatchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDo_WebApi.Controllers.ToDoController",
+    "Method": "UpdateTodoItem",
+    "RelativePath": "api/ToDo/UpdateTodoItem/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "ToDoDto",
+        "Type": "ToDo_WebApi.ModelDto.CreateUpdateToDo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDo_WebApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ToDo_WebApi.WeatherForecast, ToDo WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

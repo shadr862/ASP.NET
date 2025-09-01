@@ -1,0 +1,8 @@
+create->api project
+install in nuget->entity framewark core,sqlserver,tools
+create model and class
+create appdbcontext in data folder
+in program.cs,we have to build relation between appdbcontext and app.settings
+build relation in model and appdb 
+migration and update database->Add-Migration Name->Update-Database
+make controller
