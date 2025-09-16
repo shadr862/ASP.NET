@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkipWhile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8d70bf4c0ba5df193a23efdd33112288eabb7fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f529437f0d907892833880229a6493b7a696230")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkipWhile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkipWhile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
