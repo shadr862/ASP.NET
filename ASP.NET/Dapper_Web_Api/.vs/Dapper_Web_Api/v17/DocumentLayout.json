@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{4B9CEC67-38C3-4EDE-8E0A-7B07C02E8F2F}|Dapper_Web_Api\\Dapper_Web_Api.csproj|solutionrelative:dapper_web_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B9CEC67-38C3-4EDE-8E0A-7B07C02E8F2F}|Dapper_Web_Api\\Dapper_Web_Api.csproj|f:\\ostadasp.net\\asp.net\\dapper_web_api\\dapper_web_api\\models\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B9CEC67-38C3-4EDE-8E0A-7B07C02E8F2F}|Dapper_Web_Api\\Dapper_Web_Api.csproj|solutionrelative:dapper_web_api\\models\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B9CEC67-38C3-4EDE-8E0A-7B07C02E8F2F}|Dapper_Web_Api\\Dapper_Web_Api.csproj|f:\\ostadasp.net\\asp.net\\dapper_web_api\\dapper_web_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B9CEC67-38C3-4EDE-8E0A-7B07C02E8F2F}|Dapper_Web_Api\\Dapper_Web_Api.csproj|solutionrelative:dapper_web_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,24 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateUser.cs",
-              "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Dapper_Web_Api\\Dapper_Web_Api\\Models\\UpdateUser.cs",
-              "RelativeDocumentMoniker": "Dapper_Web_Api\\Models\\UpdateUser.cs",
-              "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Dapper_Web_Api\\Dapper_Web_Api\\Models\\UpdateUser.cs",
-              "RelativeToolTip": "Dapper_Web_Api\\Models\\UpdateUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T13:52:42.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Dapper_Web_Api\\Dapper_Web_Api\\Models\\User.cs",
               "RelativeDocumentMoniker": "Dapper_Web_Api\\Models\\User.cs",
@@ -55,12 +38,11 @@
               "RelativeToolTip": "Dapper_Web_Api\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T13:33:47.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T13:33:47.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CreateUser.cs",
               "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Dapper_Web_Api\\Dapper_Web_Api\\Models\\CreateUser.cs",
               "RelativeDocumentMoniker": "Dapper_Web_Api\\Models\\CreateUser.cs",
@@ -68,12 +50,11 @@
               "RelativeToolTip": "Dapper_Web_Api\\Models\\CreateUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T13:22:15.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T13:22:15.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\OstadASP.NET\\ASP.NET\\Dapper_Web_Api\\Dapper_Web_Api\\appsettings.json",
               "RelativeDocumentMoniker": "Dapper_Web_Api\\appsettings.json",
@@ -91,7 +72,7 @@
               "RelativeDocumentMoniker": "Dapper_Web_Api\\Controllers\\UsersController.cs",
               "ToolTip": "F:\\OstadASP.NET\\ASP.NET\\Dapper_Web_Api\\Dapper_Web_Api\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Dapper_Web_Api\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAcwEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwBQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T13:03:12.997Z",
               "EditorCaption": ""
